@@ -1,0 +1,5472 @@
+{
+  "Ancient Artillery": {
+    "lvl0": {
+      "normal": {
+        "health": 4,
+        "move": 0,
+        "attack": 2,
+        "range": 4,
+        "attributes": []
+      },
+      "elite": {
+        "health": 7,
+        "move": 0,
+        "attack": 3,
+        "range": 5,
+        "attributes": []
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 6,
+        "move": 0,
+        "attack": 2,
+        "range": 4,
+        "attributes": []
+      },
+      "elite": {
+        "health": 9,
+        "move": 0,
+        "attack": 3,
+        "range": 5,
+        "attributes": []
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 7,
+        "move": 0,
+        "attack": 2,
+        "range": 5,
+        "attributes": []
+      },
+      "elite": {
+        "health": 11,
+        "move": 0,
+        "attack": 3,
+        "range": 6,
+        "attributes": []
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 8,
+        "move": 0,
+        "attack": 3,
+        "range": 5,
+        "attributes": []
+      },
+      "elite": {
+        "health": 13,
+        "move": 0,
+        "attack": 4,
+        "range": 6,
+        "attributes": []
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 9,
+        "move": 0,
+        "attack": 4,
+        "range": 5,
+        "attributes": []
+      },
+      "elite": {
+        "health": 13,
+        "move": 0,
+        "attack": 4,
+        "range": 6,
+        "attributes": [
+          "%target% 2"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 11,
+        "move": 0,
+        "attack": 4,
+        "range": 6,
+        "attributes": []
+      },
+      "elite": {
+        "health": 15,
+        "move": 0,
+        "attack": 4,
+        "range": 7,
+        "attributes": [
+          "%target% 2"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 14,
+        "move": 0,
+        "attack": 4,
+        "range": 6,
+        "attributes": []
+      },
+      "elite": {
+        "health": 16,
+        "move": 0,
+        "attack": 5,
+        "range": 7,
+        "attributes": [
+          "%target% 2"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 16,
+        "move": 0,
+        "attack": 4,
+        "range": 7,
+        "attributes": []
+      },
+      "elite": {
+        "health": 20,
+        "move": 0,
+        "attack": 5,
+        "range": 7,
+        "attributes": [
+          "%target% 2"
+        ]
+      }
+    }
+  },
+  "Bandit Archer": {
+    "lvl0": {
+      "normal": {
+        "health": 4,
+        "move": 2,
+        "attack": 2,
+        "range": 3,
+        "attributes": []
+      },
+      "elite": {
+        "health": 6,
+        "move": 2,
+        "attack": 3,
+        "range": 3,
+        "attributes": []
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 5,
+        "move": 2,
+        "attack": 2,
+        "range": 4,
+        "attributes": []
+      },
+      "elite": {
+        "health": 7,
+        "move": 2,
+        "attack": 3,
+        "range": 5,
+        "attributes": []
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 6,
+        "move": 3,
+        "attack": 2,
+        "range": 4,
+        "attributes": []
+      },
+      "elite": {
+        "health": 9,
+        "move": 3,
+        "attack": 3,
+        "range": 5,
+        "attributes": []
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 6,
+        "move": 3,
+        "attack": 3,
+        "range": 4,
+        "attributes": []
+      },
+      "elite": {
+        "health": 10,
+        "move": 3,
+        "attack": 4,
+        "range": 5,
+        "attributes": []
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 8,
+        "move": 3,
+        "attack": 3,
+        "range": 4,
+        "attributes": []
+      },
+      "elite": {
+        "health": 10,
+        "move": 3,
+        "attack": 4,
+        "range": 6,
+        "attributes": [
+          "%poison%"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 10,
+        "move": 3,
+        "attack": 3,
+        "range": 5,
+        "attributes": []
+      },
+      "elite": {
+        "health": 12,
+        "move": 4,
+        "attack": 4,
+        "range": 6,
+        "attributes": [
+          "%poison%"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 10,
+        "move": 3,
+        "attack": 4,
+        "range": 5,
+        "attributes": []
+      },
+      "elite": {
+        "health": 13,
+        "move": 4,
+        "attack": 5,
+        "range": 6,
+        "attributes": [
+          "%poison%"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 13,
+        "move": 3,
+        "attack": 4,
+        "range": 5,
+        "attributes": []
+      },
+      "elite": {
+        "health": 17,
+        "move": 4,
+        "attack": 5,
+        "range": 6,
+        "attributes": [
+          "%poison%"
+        ]
+      }
+    }
+  },
+  "Bandit Guard": {
+    "lvl0": {
+      "normal": {
+        "health": 5,
+        "move": 2,
+        "attack": 2,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 9,
+        "move": 2,
+        "attack": 3,
+        "range": 0,
+        "attributes": []
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 6,
+        "move": 3,
+        "attack": 2,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 9,
+        "move": 2,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 6,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 10,
+        "move": 2,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 9,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 10,
+        "move": 3,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 10,
+        "move": 4,
+        "attack": 3,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 11,
+        "move": 3,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%muddle%",
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 11,
+        "move": 4,
+        "attack": 4,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 12,
+        "move": 3,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%muddle%",
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 14,
+        "move": 4,
+        "attack": 4,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 14,
+        "move": 4,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%muddle%",
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 16,
+        "move": 5,
+        "attack": 4,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 14,
+        "move": 3,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%muddle%",
+          "%shield% 3"
+        ]
+      }
+    }
+  },
+  "Black Imp": {
+    "lvl0": {
+      "normal": {
+        "health": 3,
+        "move": 1,
+        "attack": 1,
+        "range": 3,
+        "attributes": []
+      },
+      "elite": {
+        "health": 4,
+        "move": 1,
+        "attack": 2,
+        "range": 3,
+        "attributes": [
+          "%poison%"
+        ]
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 4,
+        "move": 1,
+        "attack": 1,
+        "range": 3,
+        "attributes": [
+          "%poison%"
+        ]
+      },
+      "elite": {
+        "health": 6,
+        "move": 1,
+        "attack": 2,
+        "range": 3,
+        "attributes": [
+          "%poison%"
+        ]
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 5,
+        "move": 1,
+        "attack": 1,
+        "range": 4,
+        "attributes": [
+          "%poison%"
+        ]
+      },
+      "elite": {
+        "health": 8,
+        "move": 1,
+        "attack": 2,
+        "range": 4,
+        "attributes": [
+          "%poison%"
+        ]
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 5,
+        "move": 1,
+        "attack": 2,
+        "range": 4,
+        "attributes": [
+          "%poison%"
+        ]
+      },
+      "elite": {
+        "health": 8,
+        "move": 1,
+        "attack": 3,
+        "range": 4,
+        "attributes": [
+          "Attackers gain Disadvantage",
+          "%poison%"
+        ]
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 7,
+        "move": 1,
+        "attack": 2,
+        "range": 4,
+        "attributes": [
+          "%poison%"
+        ]
+      },
+      "elite": {
+        "health": 11,
+        "move": 1,
+        "attack": 3,
+        "range": 4,
+        "attributes": [
+          "Attackers gain Disadvantage",
+          "%poison%"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 9,
+        "move": 1,
+        "attack": 2,
+        "range": 4,
+        "attributes": [
+          "%poison%"
+        ]
+      },
+      "elite": {
+        "health": 12,
+        "move": 1,
+        "attack": 3,
+        "range": 5,
+        "attributes": [
+          "Attackers gain Disadvantage",
+          "%poison%"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 10,
+        "move": 1,
+        "attack": 3,
+        "range": 4,
+        "attributes": [
+          "%poison%"
+        ]
+      },
+      "elite": {
+        "health": 14,
+        "move": 1,
+        "attack": 4,
+        "range": 5,
+        "attributes": [
+          "Attackers gain Disadvantage",
+          "%poison%"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 12,
+        "move": 1,
+        "attack": 3,
+        "range": 4,
+        "attributes": [
+          "%poison%"
+        ]
+      },
+      "elite": {
+        "health": 17,
+        "move": 1,
+        "attack": 4,
+        "range": 5,
+        "attributes": [
+          "Attackers gain Disadvantage",
+          "%poison%"
+        ]
+      }
+    }
+  },
+  "Cave Bear": {
+    "lvl0": {
+      "normal": {
+        "health": 7,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 11,
+        "move": 3,
+        "attack": 4,
+        "range": 0,
+        "attributes": []
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 9,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 14,
+        "move": 3,
+        "attack": 4,
+        "range": 0,
+        "attributes": []
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 11,
+        "move": 4,
+        "attack": 3,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 17,
+        "move": 4,
+        "attack": 4,
+        "range": 0,
+        "attributes": []
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 13,
+        "move": 4,
+        "attack": 4,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 20,
+        "move": 4,
+        "attack": 5,
+        "range": 0,
+        "attributes": []
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 16,
+        "move": 4,
+        "attack": 4,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 21,
+        "move": 5,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%wound%"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 17,
+        "move": 5,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%wound%"
+        ]
+      },
+      "elite": {
+        "health": 24,
+        "move": 5,
+        "attack": 6,
+        "range": 0,
+        "attributes": [
+          "%wound%"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 19,
+        "move": 5,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%wound%"
+        ]
+      },
+      "elite": {
+        "health": 28,
+        "move": 5,
+        "attack": 7,
+        "range": 0,
+        "attributes": [
+          "%wound%"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 22,
+        "move": 5,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%wound%"
+        ]
+      },
+      "elite": {
+        "health": 33,
+        "move": 5,
+        "attack": 7,
+        "range": 0,
+        "attributes": [
+          "%wound%"
+        ]
+      }
+    }
+  },
+  "City Archer": {
+    "lvl0": {
+      "normal": {
+        "health": 4,
+        "move": 1,
+        "attack": 2,
+        "range": 3,
+        "attributes": []
+      },
+      "elite": {
+        "health": 6,
+        "move": 1,
+        "attack": 3,
+        "range": 4,
+        "attributes": []
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 5,
+        "move": 1,
+        "attack": 2,
+        "range": 4,
+        "attributes": []
+      },
+      "elite": {
+        "health": 6,
+        "move": 1,
+        "attack": 3,
+        "range": 5,
+        "attributes": [
+          "%pierce% 1",
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 6,
+        "move": 1,
+        "attack": 3,
+        "range": 4,
+        "attributes": []
+      },
+      "elite": {
+        "health": 7,
+        "move": 1,
+        "attack": 4,
+        "range": 5,
+        "attributes": [
+          "%pierce% 2",
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 6,
+        "move": 2,
+        "attack": 3,
+        "range": 4,
+        "attributes": [
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 8,
+        "move": 2,
+        "attack": 4,
+        "range": 5,
+        "attributes": [
+          "%pierce% 2",
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 8,
+        "move": 2,
+        "attack": 3,
+        "range": 5,
+        "attributes": [
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 10,
+        "move": 2,
+        "attack": 4,
+        "range": 6,
+        "attributes": [
+          "%pierce% 2",
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 9,
+        "move": 2,
+        "attack": 4,
+        "range": 5,
+        "attributes": [
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 11,
+        "move": 2,
+        "attack": 5,
+        "range": 6,
+        "attributes": [
+          "%pierce% 3",
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 9,
+        "move": 3,
+        "attack": 4,
+        "range": 5,
+        "attributes": [
+          "%shield% 2"
+        ]
+      },
+      "elite": {
+        "health": 12,
+        "move": 3,
+        "attack": 6,
+        "range": 6,
+        "attributes": [
+          "%pierce% 3",
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 10,
+        "move": 3,
+        "attack": 4,
+        "range": 6,
+        "attributes": [
+          "%shield% 2"
+        ]
+      },
+      "elite": {
+        "health": 13,
+        "move": 3,
+        "attack": 6,
+        "range": 7,
+        "attributes": [
+          "%pierce% 3",
+          "%shield% 3"
+        ]
+      }
+    }
+  },
+  "City Guard": {
+    "lvl0": {
+      "normal": {
+        "health": 5,
+        "move": 2,
+        "attack": 2,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 6,
+        "move": 2,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 5,
+        "move": 2,
+        "attack": 2,
+        "range": 0,
+        "attributes": [
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 6,
+        "move": 2,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 7,
+        "move": 2,
+        "attack": 2,
+        "range": 0,
+        "attributes": [
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 9,
+        "move": 2,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 8,
+        "move": 2,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 9,
+        "move": 2,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 1",
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 9,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 10,
+        "move": 3,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 2",
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 10,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%shield% 2"
+        ]
+      },
+      "elite": {
+        "health": 12,
+        "move": 3,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 2",
+          "%shield% 3"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 11,
+        "move": 3,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%shield% 2"
+        ]
+      },
+      "elite": {
+        "health": 13,
+        "move": 3,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 3",
+          "%shield% 3"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 13,
+        "move": 3,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%shield% 2"
+        ]
+      },
+      "elite": {
+        "health": 14,
+        "move": 3,
+        "attack": 6,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 3",
+          "%shield% 3"
+        ]
+      }
+    }
+  },
+  "Cultist": {
+    "lvl0": {
+      "normal": {
+        "health": 4,
+        "move": 2,
+        "attack": 1,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 7,
+        "move": 2,
+        "attack": 2,
+        "range": 0,
+        "attributes": []
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 5,
+        "move": 2,
+        "attack": 1,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 9,
+        "move": 2,
+        "attack": 2,
+        "range": 0,
+        "attributes": []
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 7,
+        "move": 2,
+        "attack": 1,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 12,
+        "move": 2,
+        "attack": 2,
+        "range": 0,
+        "attributes": []
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 9,
+        "move": 3,
+        "attack": 1,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 13,
+        "move": 3,
+        "attack": 2,
+        "range": 0,
+        "attributes": [
+          "%curse%"
+        ]
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 10,
+        "move": 3,
+        "attack": 2,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 15,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%curse%"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 11,
+        "move": 3,
+        "attack": 2,
+        "range": 0,
+        "attributes": [
+          "%curse%"
+        ]
+      },
+      "elite": {
+        "health": 18,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%curse%"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 14,
+        "move": 3,
+        "attack": 2,
+        "range": 0,
+        "attributes": [
+          "%curse%"
+        ]
+      },
+      "elite": {
+        "health": 22,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%curse%"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 15,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%curse%"
+        ]
+      },
+      "elite": {
+        "health": 25,
+        "move": 3,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%curse%"
+        ]
+      }
+    }
+  },
+  "Deep Terror": {
+    "lvl0": {
+      "normal": {
+        "health": 3,
+        "move": 0,
+        "attack": 2,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 5,
+        "move": 0,
+        "attack": 3,
+        "range": 0,
+        "attributes": []
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 4,
+        "move": 0,
+        "attack": 2,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 1"
+        ]
+      },
+      "elite": {
+        "health": 6,
+        "move": 0,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 1"
+        ]
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 4,
+        "move": 0,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 1"
+        ]
+      },
+      "elite": {
+        "health": 7,
+        "move": 0,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 1"
+        ]
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 5,
+        "move": 0,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 2"
+        ]
+      },
+      "elite": {
+        "health": 8,
+        "move": 0,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 2"
+        ]
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 6,
+        "move": 0,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 2"
+        ]
+      },
+      "elite": {
+        "health": 9,
+        "move": 0,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 2"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 7,
+        "move": 0,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 3"
+        ]
+      },
+      "elite": {
+        "health": 11,
+        "move": 0,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 3"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 8,
+        "move": 0,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 3"
+        ]
+      },
+      "elite": {
+        "health": 13,
+        "move": 0,
+        "attack": 6,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 3"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 9,
+        "move": 0,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 4"
+        ]
+      },
+      "elite": {
+        "health": 15,
+        "move": 0,
+        "attack": 6,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 4"
+        ]
+      }
+    }
+  },
+  "Earth Demon": {
+    "lvl0": {
+      "normal": {
+        "health": 7,
+        "move": 1,
+        "attack": 3,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 10,
+        "move": 2,
+        "attack": 4,
+        "range": 0,
+        "attributes": []
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 9,
+        "move": 1,
+        "attack": 3,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 13,
+        "move": 2,
+        "attack": 4,
+        "range": 0,
+        "attributes": []
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 12,
+        "move": 1,
+        "attack": 3,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 18,
+        "move": 2,
+        "attack": 4,
+        "range": 0,
+        "attributes": []
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 13,
+        "move": 2,
+        "attack": 3,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 20,
+        "move": 2,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%immobilize%"
+        ]
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 15,
+        "move": 2,
+        "attack": 4,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 21,
+        "move": 3,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%immobilize%"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 17,
+        "move": 2,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%immobilize%"
+        ]
+      },
+      "elite": {
+        "health": 25,
+        "move": 3,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%immobilize%"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 20,
+        "move": 2,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%immobilize%"
+        ]
+      },
+      "elite": {
+        "health": 27,
+        "move": 3,
+        "attack": 6,
+        "range": 0,
+        "attributes": [
+          "%immobilize%"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 22,
+        "move": 3,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%immobilize%"
+        ]
+      },
+      "elite": {
+        "health": 32,
+        "move": 3,
+        "attack": 6,
+        "range": 0,
+        "attributes": [
+          "%immobilize%"
+        ]
+      }
+    }
+  },
+  "Flame Demon": {
+    "lvl0": {
+      "normal": {
+        "health": 2,
+        "move": 3,
+        "attack": 2,
+        "range": 3,
+        "attributes": [
+          "%flying%",
+          "%shield% 2"
+        ]
+      },
+      "elite": {
+        "health": 3,
+        "move": 3,
+        "attack": 2,
+        "range": 3,
+        "attributes": [
+          "%flying%",
+          "%shield% 3"
+        ]
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 2,
+        "move": 3,
+        "attack": 2,
+        "range": 3,
+        "attributes": [
+          "%flying%",
+          "%shield% 3"
+        ]
+      },
+      "elite": {
+        "health": 3,
+        "move": 3,
+        "attack": 2,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%retaliate% 2: %range% 2",
+          "%shield% 4"
+        ]
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 3,
+        "move": 3,
+        "attack": 3,
+        "range": 3,
+        "attributes": [
+          "%flying%",
+          "%shield% 3"
+        ]
+      },
+      "elite": {
+        "health": 4,
+        "move": 3,
+        "attack": 3,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%retaliate% 3: %range% 2",
+          "%shield% 4"
+        ]
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 3,
+        "move": 3,
+        "attack": 3,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%retaliate% 2: %range% 2",
+          "%shield% 3"
+        ]
+      },
+      "elite": {
+        "health": 5,
+        "move": 3,
+        "attack": 3,
+        "range": 5,
+        "attributes": [
+          "%flying%",
+          "%retaliate% 3: %range% 3",
+          "%shield% 4"
+        ]
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 3,
+        "move": 4,
+        "attack": 3,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%retaliate% 3: %range% 2",
+          "%shield% 3"
+        ]
+      },
+      "elite": {
+        "health": 5,
+        "move": 4,
+        "attack": 4,
+        "range": 5,
+        "attributes": [
+          "%flying%",
+          "%retaliate% 4: %range% 3",
+          "%shield% 4"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 4,
+        "move": 4,
+        "attack": 3,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%retaliate% 3: %range% 2",
+          "%shield% 4"
+        ]
+      },
+      "elite": {
+        "health": 6,
+        "move": 4,
+        "attack": 4,
+        "range": 5,
+        "attributes": [
+          "%flying%",
+          "%retaliate% 4: %range% 3",
+          "%shield% 5"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 4,
+        "move": 4,
+        "attack": 4,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%retaliate% 4: %range% 2",
+          "%shield% 4"
+        ]
+      },
+      "elite": {
+        "health": 7,
+        "move": 4,
+        "attack": 5,
+        "range": 5,
+        "attributes": [
+          "%flying%",
+          "%retaliate% 5: %range% 3",
+          "%shield% 5"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 5,
+        "move": 4,
+        "attack": 4,
+        "range": 5,
+        "attributes": [
+          "%flying%",
+          "%retaliate% 4: %range% 3",
+          "%shield% 4"
+        ]
+      },
+      "elite": {
+        "health": 8,
+        "move": 4,
+        "attack": 5,
+        "range": 6,
+        "attributes": [
+          "%flying%",
+          "%retaliate% 5: %range% 4",
+          "%shield% 5"
+        ]
+      }
+    }
+  },
+  "Frost Demon": {
+    "lvl0": {
+      "normal": {
+        "health": 5,
+        "move": 2,
+        "attack": 3,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 10,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": []
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 6,
+        "move": 2,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 1"
+        ]
+      },
+      "elite": {
+        "health": 10,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 2"
+        ]
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 7,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 2"
+        ]
+      },
+      "elite": {
+        "health": 12,
+        "move": 4,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 2"
+        ]
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 8,
+        "move": 3,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 2"
+        ]
+      },
+      "elite": {
+        "health": 14,
+        "move": 4,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 3"
+        ]
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 10,
+        "move": 3,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 2"
+        ]
+      },
+      "elite": {
+        "health": 18,
+        "move": 4,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 3"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 11,
+        "move": 3,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 3"
+        ]
+      },
+      "elite": {
+        "health": 20,
+        "move": 4,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 3"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 12,
+        "move": 3,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 3"
+        ]
+      },
+      "elite": {
+        "health": 22,
+        "move": 4,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 4"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 14,
+        "move": 3,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 3"
+        ]
+      },
+      "elite": {
+        "health": 25,
+        "move": 4,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 4"
+        ]
+      }
+    }
+  },
+  "Forest Imp": {
+    "lvl0": {
+      "normal": {
+        "health": 1,
+        "move": 3,
+        "attack": 1,
+        "range": 3,
+        "attributes": [
+          "%flying%",
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 4,
+        "move": 3,
+        "attack": 1,
+        "range": 3,
+        "attributes": [
+          "%flying%",
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 2,
+        "move": 3,
+        "attack": 1,
+        "range": 3,
+        "attributes": [
+          "%flying%",
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 5,
+        "move": 3,
+        "attack": 2,
+        "range": 3,
+        "attributes": [
+          "%flying%",
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 2,
+        "move": 3,
+        "attack": 2,
+        "range": 3,
+        "attributes": [
+          "%flying%",
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 6,
+        "move": 3,
+        "attack": 2,
+        "range": 3,
+        "attributes": [
+          "%flying%",
+          "%curse%",
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 3,
+        "move": 4,
+        "attack": 2,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 7,
+        "move": 4,
+        "attack": 2,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%curse%",
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 3,
+        "move": 4,
+        "attack": 2,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%shield% 2"
+        ]
+      },
+      "elite": {
+        "health": 7,
+        "move": 4,
+        "attack": 2,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%curse%",
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 4,
+        "move": 4,
+        "attack": 2,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%curse%",
+          "%shield% 2"
+        ]
+      },
+      "elite": {
+        "health": 8,
+        "move": 4,
+        "attack": 3,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%curse%",
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 4,
+        "move": 4,
+        "attack": 3,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%curse%",
+          "%shield% 2"
+        ]
+      },
+      "elite": {
+        "health": 9,
+        "move": 4,
+        "attack": 4,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%curse%",
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 6,
+        "move": 4,
+        "attack": 3,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%curse%",
+          "%shield% 2"
+        ]
+      },
+      "elite": {
+        "health": 11,
+        "move": 4,
+        "attack": 4,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%curse%",
+          "%shield% 2"
+        ]
+      }
+    }
+  },
+  "Giant Viper": {
+    "lvl0": {
+      "normal": {
+        "health": 2,
+        "move": 2,
+        "attack": 1,
+        "range": 0,
+        "attributes": [
+          "%poison%"
+        ]
+      },
+      "elite": {
+        "health": 3,
+        "move": 2,
+        "attack": 2,
+        "range": 0,
+        "attributes": [
+          "%poison%"
+        ]
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 3,
+        "move": 2,
+        "attack": 1,
+        "range": 0,
+        "attributes": [
+          "%poison%"
+        ]
+      },
+      "elite": {
+        "health": 5,
+        "move": 2,
+        "attack": 2,
+        "range": 0,
+        "attributes": [
+          "%poison%"
+        ]
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 4,
+        "move": 3,
+        "attack": 1,
+        "range": 0,
+        "attributes": [
+          "%poison%"
+        ]
+      },
+      "elite": {
+        "health": 7,
+        "move": 3,
+        "attack": 2,
+        "range": 0,
+        "attributes": [
+          "%poison%"
+        ]
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 4,
+        "move": 3,
+        "attack": 2,
+        "range": 0,
+        "attributes": [
+          "%poison%"
+        ]
+      },
+      "elite": {
+        "health": 8,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%poison%"
+        ]
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 6,
+        "move": 3,
+        "attack": 2,
+        "range": 0,
+        "attributes": [
+          "%poison%"
+        ]
+      },
+      "elite": {
+        "health": 11,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%poison%"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 7,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%poison%"
+        ]
+      },
+      "elite": {
+        "health": 13,
+        "move": 4,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%poison%"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 8,
+        "move": 4,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%poison%"
+        ]
+      },
+      "elite": {
+        "health": 14,
+        "move": 4,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%poison%"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 10,
+        "move": 4,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%poison%"
+        ]
+      },
+      "elite": {
+        "health": 17,
+        "move": 4,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%poison%"
+        ]
+      }
+    }
+  },
+  "Harrower Infester": {
+    "lvl0": {
+      "normal": {
+        "health": 6,
+        "move": 2,
+        "attack": 2,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 12,
+        "move": 2,
+        "attack": 2,
+        "range": 0,
+        "attributes": []
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 7,
+        "move": 2,
+        "attack": 2,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 1"
+        ]
+      },
+      "elite": {
+        "health": 12,
+        "move": 3,
+        "attack": 2,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 2"
+        ]
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 8,
+        "move": 2,
+        "attack": 2,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 2"
+        ]
+      },
+      "elite": {
+        "health": 14,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 2"
+        ]
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 10,
+        "move": 2,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 2"
+        ]
+      },
+      "elite": {
+        "health": 17,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 3"
+        ]
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 12,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 2"
+        ]
+      },
+      "elite": {
+        "health": 19,
+        "move": 3,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 3"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 12,
+        "move": 3,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 3"
+        ]
+      },
+      "elite": {
+        "health": 21,
+        "move": 3,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 3"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 15,
+        "move": 3,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 3"
+        ]
+      },
+      "elite": {
+        "health": 22,
+        "move": 4,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 4"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 17,
+        "move": 3,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 4"
+        ]
+      },
+      "elite": {
+        "health": 26,
+        "move": 4,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 4"
+        ]
+      }
+    }
+  },
+  "Hound": {
+    "lvl0": {
+      "normal": {
+        "health": 4,
+        "move": 3,
+        "attack": 2,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 6,
+        "move": 5,
+        "attack": 2,
+        "range": 0,
+        "attributes": []
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 4,
+        "move": 4,
+        "attack": 2,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 1"
+        ]
+      },
+      "elite": {
+        "health": 6,
+        "move": 5,
+        "attack": 2,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 2"
+        ]
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 6,
+        "move": 4,
+        "attack": 2,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 1"
+        ]
+      },
+      "elite": {
+        "health": 7,
+        "move": 5,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 2"
+        ]
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 8,
+        "move": 4,
+        "attack": 2,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 1"
+        ]
+      },
+      "elite": {
+        "health": 8,
+        "move": 5,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 2"
+        ]
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 8,
+        "move": 4,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 1"
+        ]
+      },
+      "elite": {
+        "health": 11,
+        "move": 5,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 2"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 9,
+        "move": 4,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 2"
+        ]
+      },
+      "elite": {
+        "health": 12,
+        "move": 5,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 3"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 11,
+        "move": 5,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 2"
+        ]
+      },
+      "elite": {
+        "health": 15,
+        "move": 6,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 3"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 15,
+        "move": 5,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 2"
+        ]
+      },
+      "elite": {
+        "health": 15,
+        "move": 6,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 4"
+        ]
+      }
+    }
+  },
+  "Inox Archer": {
+    "lvl0": {
+      "normal": {
+        "health": 5,
+        "move": 2,
+        "attack": 2,
+        "range": 2,
+        "attributes": []
+      },
+      "elite": {
+        "health": 7,
+        "move": 2,
+        "attack": 3,
+        "range": 3,
+        "attributes": []
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 6,
+        "move": 2,
+        "attack": 2,
+        "range": 3,
+        "attributes": []
+      },
+      "elite": {
+        "health": 8,
+        "move": 2,
+        "attack": 3,
+        "range": 4,
+        "attributes": []
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 8,
+        "move": 2,
+        "attack": 2,
+        "range": 3,
+        "attributes": []
+      },
+      "elite": {
+        "health": 11,
+        "move": 2,
+        "attack": 3,
+        "range": 4,
+        "attributes": []
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 9,
+        "move": 2,
+        "attack": 3,
+        "range": 3,
+        "attributes": []
+      },
+      "elite": {
+        "health": 13,
+        "move": 2,
+        "attack": 4,
+        "range": 4,
+        "attributes": []
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 10,
+        "move": 3,
+        "attack": 3,
+        "range": 3,
+        "attributes": []
+      },
+      "elite": {
+        "health": 14,
+        "move": 3,
+        "attack": 4,
+        "range": 4,
+        "attributes": [
+          "%wound%"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 12,
+        "move": 3,
+        "attack": 3,
+        "range": 4,
+        "attributes": []
+      },
+      "elite": {
+        "health": 17,
+        "move": 3,
+        "attack": 4,
+        "range": 5,
+        "attributes": [
+          "%wound%"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 12,
+        "move": 3,
+        "attack": 4,
+        "range": 4,
+        "attributes": [
+          "%wound%"
+        ]
+      },
+      "elite": {
+        "health": 19,
+        "move": 3,
+        "attack": 5,
+        "range": 5,
+        "attributes": [
+          "%wound%"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 15,
+        "move": 3,
+        "attack": 4,
+        "range": 4,
+        "attributes": [
+          "%wound%"
+        ]
+      },
+      "elite": {
+        "health": 23,
+        "move": 3,
+        "attack": 5,
+        "range": 5,
+        "attributes": [
+          "%wound%"
+        ]
+      }
+    }
+  },
+  "Inox Guard": {
+    "lvl0": {
+      "normal": {
+        "health": 5,
+        "move": 2,
+        "attack": 2,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 9,
+        "move": 1,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 1"
+        ]
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 8,
+        "move": 2,
+        "attack": 2,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 10,
+        "move": 2,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 2"
+        ]
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 9,
+        "move": 2,
+        "attack": 3,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 12,
+        "move": 2,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 2"
+        ]
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 11,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 15,
+        "move": 2,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 3"
+        ]
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 12,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 1"
+        ]
+      },
+      "elite": {
+        "health": 17,
+        "move": 2,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 3"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 13,
+        "move": 3,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 1"
+        ]
+      },
+      "elite": {
+        "health": 19,
+        "move": 2,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 4"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 16,
+        "move": 3,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 1"
+        ]
+      },
+      "elite": {
+        "health": 21,
+        "move": 3,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 4"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 19,
+        "move": 3,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 2"
+        ]
+      },
+      "elite": {
+        "health": 23,
+        "move": 3,
+        "attack": 6,
+        "range": 0,
+        "attributes": [
+          "%retaliate% 4"
+        ]
+      }
+    }
+  },
+  "Inox Shaman": {
+    "lvl0": {
+      "normal": {
+        "health": 4,
+        "move": 1,
+        "attack": 2,
+        "range": 3,
+        "attributes": []
+      },
+      "elite": {
+        "health": 6,
+        "move": 2,
+        "attack": 3,
+        "range": 3,
+        "attributes": []
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 6,
+        "move": 1,
+        "attack": 2,
+        "range": 3,
+        "attributes": []
+      },
+      "elite": {
+        "health": 9,
+        "move": 2,
+        "attack": 3,
+        "range": 3,
+        "attributes": []
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 7,
+        "move": 2,
+        "attack": 2,
+        "range": 3,
+        "attributes": []
+      },
+      "elite": {
+        "health": 11,
+        "move": 3,
+        "attack": 3,
+        "range": 3,
+        "attributes": []
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 9,
+        "move": 2,
+        "attack": 2,
+        "range": 4,
+        "attributes": []
+      },
+      "elite": {
+        "health": 14,
+        "move": 3,
+        "attack": 3,
+        "range": 4,
+        "attributes": []
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 10,
+        "move": 2,
+        "attack": 3,
+        "range": 4,
+        "attributes": []
+      },
+      "elite": {
+        "health": 16,
+        "move": 3,
+        "attack": 4,
+        "range": 4,
+        "attributes": []
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 13,
+        "move": 2,
+        "attack": 3,
+        "range": 4,
+        "attributes": []
+      },
+      "elite": {
+        "health": 20,
+        "move": 3,
+        "attack": 4,
+        "range": 4,
+        "attributes": []
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 15,
+        "move": 3,
+        "attack": 3,
+        "range": 4,
+        "attributes": []
+      },
+      "elite": {
+        "health": 24,
+        "move": 4,
+        "attack": 4,
+        "range": 4,
+        "attributes": []
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 16,
+        "move": 3,
+        "attack": 4,
+        "range": 4,
+        "attributes": []
+      },
+      "elite": {
+        "health": 27,
+        "move": 4,
+        "attack": 5,
+        "range": 4,
+        "attributes": []
+      }
+    }
+  },
+  "Living Bones": {
+    "lvl0": {
+      "normal": {
+        "health": 5,
+        "move": 2,
+        "attack": 1,
+        "range": 0,
+        "attributes": [
+          "%target% 2"
+        ]
+      },
+      "elite": {
+        "health": 6,
+        "move": 4,
+        "attack": 2,
+        "range": 0,
+        "attributes": [
+          "%target% 2"
+        ]
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 5,
+        "move": 3,
+        "attack": 1,
+        "range": 0,
+        "attributes": [
+          "%target% 2",
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 6,
+        "move": 4,
+        "attack": 2,
+        "range": 0,
+        "attributes": [
+          "%target% 3",
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 5,
+        "move": 3,
+        "attack": 2,
+        "range": 0,
+        "attributes": [
+          "%target% 2",
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 7,
+        "move": 4,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%target% 3",
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 7,
+        "move": 3,
+        "attack": 2,
+        "range": 0,
+        "attributes": [
+          "%target% 2",
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 10,
+        "move": 4,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%target% 3",
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 7,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%target% 2",
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 11,
+        "move": 4,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%target% 3",
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 9,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%target% 2",
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 11,
+        "move": 4,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%target% 3",
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 10,
+        "move": 4,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%target% 2",
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 11,
+        "move": 6,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%target% 3",
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 13,
+        "move": 4,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%target% 2",
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 14,
+        "move": 6,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%target% 3",
+          "%shield% 2"
+        ]
+      }
+    }
+  },
+  "Living Corpse": {
+    "lvl0": {
+      "normal": {
+        "health": 5,
+        "move": 1,
+        "attack": 3,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 10,
+        "move": 1,
+        "attack": 3,
+        "range": 0,
+        "attributes": []
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 7,
+        "move": 1,
+        "attack": 3,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 10,
+        "move": 1,
+        "attack": 4,
+        "range": 0,
+        "attributes": []
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 9,
+        "move": 1,
+        "attack": 3,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 13,
+        "move": 1,
+        "attack": 4,
+        "range": 0,
+        "attributes": []
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 10,
+        "move": 1,
+        "attack": 4,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 13,
+        "move": 2,
+        "attack": 5,
+        "range": 0,
+        "attributes": []
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 11,
+        "move": 2,
+        "attack": 4,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 15,
+        "move": 2,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%poison%"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 13,
+        "move": 2,
+        "attack": 4,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 17,
+        "move": 2,
+        "attack": 6,
+        "range": 0,
+        "attributes": [
+          "%poison%"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 14,
+        "move": 2,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%poison%"
+        ]
+      },
+      "elite": {
+        "health": 21,
+        "move": 2,
+        "attack": 6,
+        "range": 0,
+        "attributes": [
+          "%poison%"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 15,
+        "move": 2,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%poison%"
+        ]
+      },
+      "elite": {
+        "health": 25,
+        "move": 2,
+        "attack": 6,
+        "range": 0,
+        "attributes": [
+          "%poison%"
+        ]
+      }
+    }
+  },
+  "Living Spirit": {
+    "lvl0": {
+      "normal": {
+        "health": 2,
+        "move": 2,
+        "attack": 2,
+        "range": 2,
+        "attributes": [
+          "%flying%",
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 3,
+        "move": 3,
+        "attack": 3,
+        "range": 3,
+        "attributes": [
+          "%flying%",
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 2,
+        "move": 2,
+        "attack": 2,
+        "range": 2,
+        "attributes": [
+          "%flying%",
+          "%shield% 2"
+        ]
+      },
+      "elite": {
+        "health": 3,
+        "move": 3,
+        "attack": 3,
+        "range": 3,
+        "attributes": [
+          "%flying%",
+          "%shield% 3"
+        ]
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 2,
+        "move": 3,
+        "attack": 2,
+        "range": 3,
+        "attributes": [
+          "%flying%",
+          "%shield% 2"
+        ]
+      },
+      "elite": {
+        "health": 3,
+        "move": 4,
+        "attack": 3,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%shield% 3"
+        ]
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 3,
+        "move": 3,
+        "attack": 3,
+        "range": 3,
+        "attributes": [
+          "%flying%",
+          "%shield% 2"
+        ]
+      },
+      "elite": {
+        "health": 4,
+        "move": 4,
+        "attack": 4,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%shield% 3"
+        ]
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 3,
+        "move": 3,
+        "attack": 3,
+        "range": 3,
+        "attributes": [
+          "%flying%",
+          "%shield% 3"
+        ]
+      },
+      "elite": {
+        "health": 4,
+        "move": 4,
+        "attack": 4,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%shield% 4"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 4,
+        "move": 3,
+        "attack": 3,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%shield% 3"
+        ]
+      },
+      "elite": {
+        "health": 6,
+        "move": 4,
+        "attack": 4,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%shield% 4"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 4,
+        "move": 3,
+        "attack": 4,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%shield% 3"
+        ]
+      },
+      "elite": {
+        "health": 7,
+        "move": 4,
+        "attack": 5,
+        "range": 5,
+        "attributes": [
+          "%flying%",
+          "%shield% 4"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 6,
+        "move": 3,
+        "attack": 4,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%shield% 3"
+        ]
+      },
+      "elite": {
+        "health": 9,
+        "move": 4,
+        "attack": 5,
+        "range": 5,
+        "attributes": [
+          "%flying%",
+          "%shield% 4"
+        ]
+      }
+    }
+  },
+  "Lurker": {
+    "lvl0": {
+      "normal": {
+        "health": 5,
+        "move": 2,
+        "attack": 2,
+        "range": 0,
+        "attributes": [
+          "%target% 2"
+        ]
+      },
+      "elite": {
+        "health": 7,
+        "move": 2,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%target% 2",
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 7,
+        "move": 2,
+        "attack": 2,
+        "range": 0,
+        "attributes": [
+          "%target% 2",
+          "%pierce% 1"
+        ]
+      },
+      "elite": {
+        "health": 9,
+        "move": 2,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%target% 2",
+          "%pierce% 1",
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 9,
+        "move": 3,
+        "attack": 2,
+        "range": 0,
+        "attributes": [
+          "%target% 2",
+          "%pierce% 1"
+        ]
+      },
+      "elite": {
+        "health": 12,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%target% 2",
+          "%pierce% 2",
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 10,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%target% 2",
+          "%pierce% 2"
+        ]
+      },
+      "elite": {
+        "health": 14,
+        "move": 3,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%target% 2",
+          "%pierce% 2",
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 10,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%target% 2",
+          "%pierce% 2",
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 14,
+        "move": 3,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%target% 2",
+          "%pierce% 3",
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 11,
+        "move": 3,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%target% 2",
+          "%pierce% 2",
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 15,
+        "move": 3,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%target% 2",
+          "%pierce% 3",
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 12,
+        "move": 4,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%target% 2",
+          "%pierce% 3",
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 16,
+        "move": 4,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%target% 2",
+          "%pierce% 4",
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 14,
+        "move": 4,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%target% 2",
+          "%pierce% 3",
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 18,
+        "move": 4,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%target% 2",
+          "%pierce% 4",
+          "%shield% 2"
+        ]
+      }
+    }
+  },
+  "Ooze": {
+    "lvl0": {
+      "normal": {
+        "health": 4,
+        "move": 1,
+        "attack": 2,
+        "range": 2,
+        "attributes": []
+      },
+      "elite": {
+        "health": 8,
+        "move": 1,
+        "attack": 2,
+        "range": 3,
+        "attributes": []
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 5,
+        "move": 1,
+        "attack": 2,
+        "range": 2,
+        "attributes": [
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 9,
+        "move": 1,
+        "attack": 2,
+        "range": 3,
+        "attributes": [
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 7,
+        "move": 1,
+        "attack": 2,
+        "range": 3,
+        "attributes": [
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 11,
+        "move": 1,
+        "attack": 3,
+        "range": 3,
+        "attributes": [
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 8,
+        "move": 1,
+        "attack": 3,
+        "range": 3,
+        "attributes": [
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 11,
+        "move": 2,
+        "attack": 3,
+        "range": 4,
+        "attributes": [
+          "%poison%",
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 9,
+        "move": 2,
+        "attack": 3,
+        "range": 3,
+        "attributes": [
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 13,
+        "move": 2,
+        "attack": 4,
+        "range": 4,
+        "attributes": [
+          "%poison%",
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 10,
+        "move": 2,
+        "attack": 3,
+        "range": 3,
+        "attributes": [
+          "%poison%",
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 15,
+        "move": 3,
+        "attack": 4,
+        "range": 4,
+        "attributes": [
+          "%poison%",
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 12,
+        "move": 2,
+        "attack": 4,
+        "range": 3,
+        "attributes": [
+          "%poison%",
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 16,
+        "move": 3,
+        "attack": 4,
+        "range": 4,
+        "attributes": [
+          "%poison%",
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 14,
+        "move": 2,
+        "attack": 4,
+        "range": 3,
+        "attributes": [
+          "%poison%",
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 18,
+        "move": 3,
+        "attack": 5,
+        "range": 4,
+        "attributes": [
+          "%poison%",
+          "%shield% 2"
+        ]
+      }
+    }
+  },
+  "Night Demon": {
+    "lvl0": {
+      "normal": {
+        "health": 3,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "Attackers gain Disadvantage"
+        ]
+      },
+      "elite": {
+        "health": 5,
+        "move": 4,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "Attackers gain Disadvantage"
+        ]
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 5,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "Attackers gain Disadvantage"
+        ]
+      },
+      "elite": {
+        "health": 8,
+        "move": 4,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "Attackers gain Disadvantage"
+        ]
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 6,
+        "move": 3,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "Attackers gain Disadvantage"
+        ]
+      },
+      "elite": {
+        "health": 11,
+        "move": 4,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "Attackers gain Disadvantage"
+        ]
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 7,
+        "move": 4,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "Attackers gain Disadvantage"
+        ]
+      },
+      "elite": {
+        "health": 13,
+        "move": 4,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "Attackers gain Disadvantage"
+        ]
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 8,
+        "move": 4,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "Attackers gain Disadvantage"
+        ]
+      },
+      "elite": {
+        "health": 15,
+        "move": 5,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "Attackers gain Disadvantage"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 11,
+        "move": 4,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "Attackers gain Disadvantage"
+        ]
+      },
+      "elite": {
+        "health": 17,
+        "move": 5,
+        "attack": 6,
+        "range": 0,
+        "attributes": [
+          "Attackers gain Disadvantage"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 14,
+        "move": 4,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "Attackers gain Disadvantage"
+        ]
+      },
+      "elite": {
+        "health": 21,
+        "move": 5,
+        "attack": 6,
+        "range": 0,
+        "attributes": [
+          "Attackers gain Disadvantage"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 15,
+        "move": 4,
+        "attack": 6,
+        "range": 0,
+        "attributes": [
+          "Attackers gain Disadvantage"
+        ]
+      },
+      "elite": {
+        "health": 21,
+        "move": 5,
+        "attack": 8,
+        "range": 0,
+        "attributes": [
+          "Attackers gain Disadvantage"
+        ]
+      }
+    }
+  },
+  "Rending Drake": {
+    "lvl0": {
+      "normal": {
+        "health": 5,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 7,
+        "move": 4,
+        "attack": 4,
+        "range": 0,
+        "attributes": []
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 6,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%wound%"
+        ]
+      },
+      "elite": {
+        "health": 7,
+        "move": 4,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%wound%"
+        ]
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 7,
+        "move": 4,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%wound%"
+        ]
+      },
+      "elite": {
+        "health": 9,
+        "move": 5,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%wound%"
+        ]
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 7,
+        "move": 4,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%wound%"
+        ]
+      },
+      "elite": {
+        "health": 10,
+        "move": 5,
+        "attack": 6,
+        "range": 0,
+        "attributes": [
+          "%wound%"
+        ]
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 9,
+        "move": 4,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%wound%"
+        ]
+      },
+      "elite": {
+        "health": 11,
+        "move": 6,
+        "attack": 6,
+        "range": 0,
+        "attributes": [
+          "%wound%"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 10,
+        "move": 4,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%wound%"
+        ]
+      },
+      "elite": {
+        "health": 14,
+        "move": 6,
+        "attack": 6,
+        "range": 0,
+        "attributes": [
+          "%wound%"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 11,
+        "move": 5,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%wound%"
+        ]
+      },
+      "elite": {
+        "health": 15,
+        "move": 6,
+        "attack": 7,
+        "range": 0,
+        "attributes": [
+          "%wound%"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 14,
+        "move": 5,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%wound%"
+        ]
+      },
+      "elite": {
+        "health": 18,
+        "move": 6,
+        "attack": 7,
+        "range": 0,
+        "attributes": [
+          "%wound%"
+        ]
+      }
+    }
+  },
+  "Savvas Icestorm": {
+    "lvl0": {
+      "normal": {
+        "health": 7,
+        "move": 2,
+        "attack": 2,
+        "range": 3,
+        "attributes": [
+          "%pierce% 3"
+        ]
+      },
+      "elite": {
+        "health": 12,
+        "move": 2,
+        "attack": 3,
+        "range": 4,
+        "attributes": [
+          "%pierce% 3"
+        ]
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 10,
+        "move": 2,
+        "attack": 2,
+        "range": 4,
+        "attributes": [
+          "%pierce% 3"
+        ]
+      },
+      "elite": {
+        "health": 12,
+        "move": 2,
+        "attack": 3,
+        "range": 5,
+        "attributes": [
+          "%pierce% 3",
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 12,
+        "move": 3,
+        "attack": 2,
+        "range": 4,
+        "attributes": [
+          "%pierce% 3"
+        ]
+      },
+      "elite": {
+        "health": 15,
+        "move": 3,
+        "attack": 3,
+        "range": 5,
+        "attributes": [
+          "%pierce% 3",
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 12,
+        "move": 3,
+        "attack": 3,
+        "range": 4,
+        "attributes": [
+          "%pierce% 3",
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 18,
+        "move": 3,
+        "attack": 4,
+        "range": 6,
+        "attributes": [
+          "%pierce% 3",
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 14,
+        "move": 3,
+        "attack": 3,
+        "range": 5,
+        "attributes": [
+          "%pierce% 3",
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 19,
+        "move": 4,
+        "attack": 4,
+        "range": 6,
+        "attributes": [
+          "%pierce% 3",
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 16,
+        "move": 3,
+        "attack": 4,
+        "range": 5,
+        "attributes": [
+          "%pierce% 3",
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 21,
+        "move": 4,
+        "attack": 5,
+        "range": 6,
+        "attributes": [
+          "%pierce% 3",
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 16,
+        "move": 3,
+        "attack": 4,
+        "range": 5,
+        "attributes": [
+          "%pierce% 3",
+          "%shield% 2"
+        ]
+      },
+      "elite": {
+        "health": 23,
+        "move": 4,
+        "attack": 6,
+        "range": 6,
+        "attributes": [
+          "%pierce% 3",
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 17,
+        "move": 4,
+        "attack": 4,
+        "range": 6,
+        "attributes": [
+          "%pierce% 3",
+          "%shield% 2"
+        ]
+      },
+      "elite": {
+        "health": 24,
+        "move": 4,
+        "attack": 6,
+        "range": 6,
+        "attributes": [
+          "%pierce% 4",
+          "%shield% 3"
+        ]
+      }
+    }
+  },
+  "Savvas Lavaflow": {
+    "lvl0": {
+      "normal": {
+        "health": 8,
+        "move": 3,
+        "attack": 2,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 13,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": []
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 9,
+        "move": 3,
+        "attack": 2,
+        "range": 0,
+        "attributes": [
+          "%poison%"
+        ]
+      },
+      "elite": {
+        "health": 15,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%wound%"
+        ]
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 11,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%poison%"
+        ]
+      },
+      "elite": {
+        "health": 18,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%poison%",
+          "%wound%"
+        ]
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 14,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%poison%"
+        ]
+      },
+      "elite": {
+        "health": 21,
+        "move": 3,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%poison%",
+          "%wound%"
+        ]
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 16,
+        "move": 3,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%poison%"
+        ]
+      },
+      "elite": {
+        "health": 24,
+        "move": 4,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%poison%",
+          "%wound%"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 18,
+        "move": 3,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%poison%",
+          "%wound%"
+        ]
+      },
+      "elite": {
+        "health": 27,
+        "move": 4,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%poison%",
+          "%wound%"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 20,
+        "move": 4,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%poison%",
+          "%wound%"
+        ]
+      },
+      "elite": {
+        "health": 30,
+        "move": 4,
+        "attack": 6,
+        "range": 0,
+        "attributes": [
+          "%poison%",
+          "%wound%"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 24,
+        "move": 4,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%poison%",
+          "%wound%"
+        ]
+      },
+      "elite": {
+        "health": 35,
+        "move": 4,
+        "attack": 6,
+        "range": 0,
+        "attributes": [
+          "%poison%",
+          "%wound%"
+        ]
+      }
+    }
+  },
+  "Spitting Drake": {
+    "lvl0": {
+      "normal": {
+        "health": 5,
+        "move": 3,
+        "attack": 3,
+        "range": 3,
+        "attributes": [
+          "%flying%"
+        ]
+      },
+      "elite": {
+        "health": 8,
+        "move": 3,
+        "attack": 4,
+        "range": 4,
+        "attributes": [
+          "%flying%"
+        ]
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 6,
+        "move": 3,
+        "attack": 3,
+        "range": 3,
+        "attributes": [
+          "%flying%"
+        ]
+      },
+      "elite": {
+        "health": 9,
+        "move": 3,
+        "attack": 4,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%muddle%"
+        ]
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 8,
+        "move": 3,
+        "attack": 3,
+        "range": 3,
+        "attributes": [
+          "%flying%",
+          "%muddle%"
+        ]
+      },
+      "elite": {
+        "health": 10,
+        "move": 3,
+        "attack": 5,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%muddle%"
+        ]
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 8,
+        "move": 3,
+        "attack": 4,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%muddle%"
+        ]
+      },
+      "elite": {
+        "health": 12,
+        "move": 3,
+        "attack": 5,
+        "range": 5,
+        "attributes": [
+          "%flying%",
+          "%muddle%"
+        ]
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 9,
+        "move": 4,
+        "attack": 4,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%muddle%"
+        ]
+      },
+      "elite": {
+        "health": 14,
+        "move": 4,
+        "attack": 5,
+        "range": 5,
+        "attributes": [
+          "%flying%",
+          "%muddle%"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 12,
+        "move": 4,
+        "attack": 4,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%muddle%"
+        ]
+      },
+      "elite": {
+        "health": 16,
+        "move": 4,
+        "attack": 6,
+        "range": 5,
+        "attributes": [
+          "%flying%",
+          "%muddle%"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 13,
+        "move": 4,
+        "attack": 5,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%muddle%"
+        ]
+      },
+      "elite": {
+        "health": 19,
+        "move": 4,
+        "attack": 6,
+        "range": 5,
+        "attributes": [
+          "%flying%",
+          "%muddle%"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 16,
+        "move": 4,
+        "attack": 5,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%muddle%"
+        ]
+      },
+      "elite": {
+        "health": 21,
+        "move": 4,
+        "attack": 7,
+        "range": 5,
+        "attributes": [
+          "%flying%",
+          "%muddle%"
+        ]
+      }
+    }
+  },
+  "Stone Golem": {
+    "lvl0": {
+      "normal": {
+        "health": 10,
+        "move": 1,
+        "attack": 3,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 10,
+        "move": 2,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 10,
+        "move": 1,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 11,
+        "move": 2,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 11,
+        "move": 1,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 14,
+        "move": 2,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 11,
+        "move": 1,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%shield% 2"
+        ]
+      },
+      "elite": {
+        "health": 15,
+        "move": 2,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%shield% 3"
+        ]
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 12,
+        "move": 2,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%shield% 2"
+        ]
+      },
+      "elite": {
+        "health": 17,
+        "move": 2,
+        "attack": 6,
+        "range": 0,
+        "attributes": [
+          "%shield% 3"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 13,
+        "move": 2,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%shield% 2"
+        ]
+      },
+      "elite": {
+        "health": 19,
+        "move": 3,
+        "attack": 6,
+        "range": 0,
+        "attributes": [
+          "%shield% 3"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 16,
+        "move": 2,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%shield% 2"
+        ]
+      },
+      "elite": {
+        "health": 20,
+        "move": 3,
+        "attack": 7,
+        "range": 0,
+        "attributes": [
+          "%shield% 3"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 16,
+        "move": 2,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%shield% 3"
+        ]
+      },
+      "elite": {
+        "health": 21,
+        "move": 3,
+        "attack": 7,
+        "range": 0,
+        "attributes": [
+          "%shield% 4"
+        ]
+      }
+    }
+  },
+  "Sun Demon": {
+    "lvl0": {
+      "normal": {
+        "health": 5,
+        "move": 2,
+        "attack": 2,
+        "range": 0,
+        "attributes": [
+          "%flying%",
+          "Advantage",
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 9,
+        "move": 2,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%flying%",
+          "Advantage",
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 7,
+        "move": 2,
+        "attack": 2,
+        "range": 0,
+        "attributes": [
+          "%flying%",
+          "Advantage",
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 12,
+        "move": 2,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%flying%",
+          "Advantage",
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 9,
+        "move": 2,
+        "attack": 2,
+        "range": 0,
+        "attributes": [
+          "%flying%",
+          "Advantage",
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 13,
+        "move": 2,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%flying%",
+          "Advantage",
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 10,
+        "move": 2,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%flying%",
+          "Advantage",
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 15,
+        "move": 3,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%flying%",
+          "Advantage",
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 11,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%flying%",
+          "Advantage",
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 16,
+        "move": 3,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%flying%",
+          "Advantage",
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 11,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": [
+          "%flying%",
+          "Advantage",
+          "%shield% 2"
+        ]
+      },
+      "elite": {
+        "health": 16,
+        "move": 3,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%flying%",
+          "Advantage",
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 12,
+        "move": 3,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%flying%",
+          "Advantage",
+          "%shield% 2"
+        ]
+      },
+      "elite": {
+        "health": 18,
+        "move": 4,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%flying%",
+          "Advantage",
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 15,
+        "move": 3,
+        "attack": 4,
+        "range": 0,
+        "attributes": [
+          "%flying%",
+          "Advantage",
+          "%shield% 2"
+        ]
+      },
+      "elite": {
+        "health": 22,
+        "move": 4,
+        "attack": 5,
+        "range": 0,
+        "attributes": [
+          "%flying%",
+          "Advantage",
+          "%shield% 2"
+        ]
+      }
+    }
+  },
+  "Vermling Scout": {
+    "lvl0": {
+      "normal": {
+        "health": 2,
+        "move": 3,
+        "attack": 1,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 4,
+        "move": 3,
+        "attack": 2,
+        "range": 0,
+        "attributes": []
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 3,
+        "move": 3,
+        "attack": 1,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 5,
+        "move": 3,
+        "attack": 2,
+        "range": 0,
+        "attributes": []
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 3,
+        "move": 3,
+        "attack": 2,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 5,
+        "move": 4,
+        "attack": 3,
+        "range": 0,
+        "attributes": []
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 5,
+        "move": 3,
+        "attack": 2,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 7,
+        "move": 4,
+        "attack": 3,
+        "range": 0,
+        "attributes": []
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 6,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 8,
+        "move": 4,
+        "attack": 4,
+        "range": 0,
+        "attributes": []
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 8,
+        "move": 3,
+        "attack": 3,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 11,
+        "move": 4,
+        "attack": 4,
+        "range": 0,
+        "attributes": []
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 9,
+        "move": 4,
+        "attack": 3,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 12,
+        "move": 5,
+        "attack": 4,
+        "range": 0,
+        "attributes": []
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 11,
+        "move": 4,
+        "attack": 3,
+        "range": 0,
+        "attributes": []
+      },
+      "elite": {
+        "health": 15,
+        "move": 5,
+        "attack": 4,
+        "range": 0,
+        "attributes": []
+      }
+    }
+  },
+  "Vermling Shaman": {
+    "lvl0": {
+      "normal": {
+        "health": 2,
+        "move": 2,
+        "attack": 1,
+        "range": 3,
+        "attributes": [
+          "%shield% 2"
+        ]
+      },
+      "elite": {
+        "health": 3,
+        "move": 3,
+        "attack": 2,
+        "range": 3,
+        "attributes": [
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 2,
+        "move": 2,
+        "attack": 1,
+        "range": 3,
+        "attributes": [
+          "%shield% 3"
+        ]
+      },
+      "elite": {
+        "health": 3,
+        "move": 3,
+        "attack": 2,
+        "range": 3,
+        "attributes": [
+          "%shield% 3"
+        ]
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 3,
+        "move": 2,
+        "attack": 1,
+        "range": 4,
+        "attributes": [
+          "%shield% 3"
+        ]
+      },
+      "elite": {
+        "health": 4,
+        "move": 3,
+        "attack": 2,
+        "range": 4,
+        "attributes": [
+          "%shield% 3"
+        ]
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 3,
+        "move": 2,
+        "attack": 2,
+        "range": 4,
+        "attributes": [
+          "%shield% 3"
+        ]
+      },
+      "elite": {
+        "health": 5,
+        "move": 3,
+        "attack": 3,
+        "range": 4,
+        "attributes": [
+          "%shield% 3"
+        ]
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 3,
+        "move": 3,
+        "attack": 2,
+        "range": 4,
+        "attributes": [
+          "%muddle%",
+          "%shield% 3"
+        ]
+      },
+      "elite": {
+        "health": 5,
+        "move": 3,
+        "attack": 3,
+        "range": 4,
+        "attributes": [
+          "%muddle%",
+          "%shield% 4"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 4,
+        "move": 3,
+        "attack": 3,
+        "range": 4,
+        "attributes": [
+          "%muddle%",
+          "%shield% 3"
+        ]
+      },
+      "elite": {
+        "health": 6,
+        "move": 3,
+        "attack": 4,
+        "range": 4,
+        "attributes": [
+          "%muddle%",
+          "%shield% 4"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 5,
+        "move": 3,
+        "attack": 4,
+        "range": 4,
+        "attributes": [
+          "%muddle%",
+          "%shield% 3"
+        ]
+      },
+      "elite": {
+        "health": 6,
+        "move": 3,
+        "attack": 4,
+        "range": 4,
+        "attributes": [
+          "%muddle%",
+          "%shield% 5"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 7,
+        "move": 3,
+        "attack": 4,
+        "range": 4,
+        "attributes": [
+          "%muddle%",
+          "%shield% 3"
+        ]
+      },
+      "elite": {
+        "health": 8,
+        "move": 3,
+        "attack": 4,
+        "range": 4,
+        "attributes": [
+          "%muddle%",
+          "%shield% 5"
+        ]
+      }
+    }
+  },
+  "Wind Demon": {
+    "lvl0": {
+      "normal": {
+        "health": 3,
+        "move": 3,
+        "attack": 2,
+        "range": 3,
+        "attributes": [
+          "%flying%",
+          "%shield% 1"
+        ]
+      },
+      "elite": {
+        "health": 5,
+        "move": 4,
+        "attack": 3,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%shield% 1"
+        ]
+      }
+    },
+    "lvl1": {
+      "normal": {
+        "health": 3,
+        "move": 3,
+        "attack": 2,
+        "range": 3,
+        "attributes": [
+          "%flying%",
+          "%shield% 2"
+        ]
+      },
+      "elite": {
+        "health": 5,
+        "move": 4,
+        "attack": 3,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl2": {
+      "normal": {
+        "health": 4,
+        "move": 4,
+        "attack": 2,
+        "range": 3,
+        "attributes": [
+          "%flying%",
+          "%shield% 2"
+        ]
+      },
+      "elite": {
+        "health": 7,
+        "move": 5,
+        "attack": 3,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl3": {
+      "normal": {
+        "health": 5,
+        "move": 4,
+        "attack": 3,
+        "range": 3,
+        "attributes": [
+          "%flying%",
+          "%shield% 2"
+        ]
+      },
+      "elite": {
+        "health": 8,
+        "move": 5,
+        "attack": 4,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl4": {
+      "normal": {
+        "health": 7,
+        "move": 4,
+        "attack": 3,
+        "range": 3,
+        "attributes": [
+          "%flying%",
+          "%shield% 2"
+        ]
+      },
+      "elite": {
+        "health": 8,
+        "move": 5,
+        "attack": 4,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%disarm%",
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl5": {
+      "normal": {
+        "health": 9,
+        "move": 4,
+        "attack": 3,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%shield% 2"
+        ]
+      },
+      "elite": {
+        "health": 11,
+        "move": 5,
+        "attack": 4,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%disarm%",
+          "%shield% 2"
+        ]
+      }
+    },
+    "lvl6": {
+      "normal": {
+        "health": 10,
+        "move": 4,
+        "attack": 3,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%shield% 3"
+        ]
+      },
+      "elite": {
+        "health": 12,
+        "move": 5,
+        "attack": 4,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%disarm%",
+          "%shield% 3"
+        ]
+      }
+    },
+    "lvl7": {
+      "normal": {
+        "health": 11,
+        "move": 4,
+        "attack": 4,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%shield% 3"
+        ]
+      },
+      "elite": {
+        "health": 13,
+        "move": 5,
+        "attack": 5,
+        "range": 4,
+        "attributes": [
+          "%flying%",
+          "%disarm%",
+          "%shield% 3"
+        ]
+      }
+    }
+  }
+}

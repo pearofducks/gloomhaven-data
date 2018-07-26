@@ -1,0 +1,2189 @@
+{
+  "Ancient Artillery": [
+    {
+      "initiative": "46",
+      "shuffle": false,
+      "rules": [
+        "* %attack% -1",
+        "** %range% +2"
+      ]
+    },
+    {
+      "initiative": "71",
+      "shuffle": true,
+      "rules": [
+        "* %attack% +0",
+        "** %range% +0",
+        "** All adjacent enemies suffer 2 damage"
+      ]
+    },
+    {
+      "initiative": "71",
+      "shuffle": true,
+      "rules": [
+        "* %attack% +0",
+        "** %range% +0",
+        "** All adjacent enemies suffer 2 damage"
+      ]
+    },
+    {
+      "initiative": "37",
+      "shuffle": false,
+      "rules": [
+        "* %push% 1",
+        "** Target all adjacent enemies",
+        "* %attack% -1 %aoe-triangle-2-side%",
+        "** %range% -1"
+      ]
+    },
+    {
+      "initiative": "37",
+      "shuffle": false,
+      "rules": [
+        "* %push% 1",
+        "** Target all adjacent enemies",
+        "* %attack% -1 %aoe-circle%",
+        "** %range% -1"
+      ]
+    },
+    {
+      "initiative": "17",
+      "shuffle": false,
+      "rules": [
+        "* %push% 2",
+        "** Target all adjacent enemies",
+        "* %shield% 2",
+        "* %attack% -2",
+        "** %range% +0"
+      ]
+    },
+    {
+      "initiative": "95",
+      "shuffle": false,
+      "rules": [
+        "* %attack% +1",
+        "** %range% +0"
+      ]
+    },
+    {
+      "initiative": "46",
+      "shuffle": false,
+      "rules": [
+        "* %attack% -1 %aoe-triangle-2-side%",
+        "** %range% +0",
+        "** %immobilize%"
+      ]
+    }
+  ],
+  "Archer": [
+    {
+      "initiative": "16",
+      "shuffle": false,
+      "rules": [
+        "* %move% +1",
+        "* %attack% -1",
+        "** %range% +0"
+      ]
+    },
+    {
+      "initiative": "31",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0",
+        "** %range% +0"
+      ]
+    },
+    {
+      "initiative": "32",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +1",
+        "** %range% -1"
+      ]
+    },
+    {
+      "initiative": "44",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +1",
+        "** %range% +0"
+      ]
+    },
+    {
+      "initiative": "56",
+      "shuffle": false,
+      "rules": [
+        "* %attack% -1",
+        "** %range% +0",
+        "** %target% 2"
+      ]
+    },
+    {
+      "initiative": "68",
+      "shuffle": true,
+      "rules": [
+        "* %attack% +1",
+        "** %range% +1"
+      ]
+    },
+    {
+      "initiative": "14",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% -1",
+        null,
+        "** %range% +0",
+        "* <span class='small'> Create a 3 damage trap in an adjacent empty hex closest to an enemy </span>"
+      ]
+    },
+    {
+      "initiative": "29",
+      "shuffle": true,
+      "rules": [
+        "* %move% +0",
+        "* %attack% -1",
+        "** %range% +1",
+        "** %immobilize%"
+      ]
+    }
+  ],
+  "Boss": [
+    {
+      "initiative": "11",
+      "shuffle": false,
+      "rules": [
+        "* Special 2"
+      ]
+    },
+    {
+      "initiative": "14",
+      "shuffle": false,
+      "rules": [
+        "* Special 2"
+      ]
+    },
+    {
+      "initiative": "17",
+      "shuffle": true,
+      "rules": [
+        "* Special 2"
+      ]
+    },
+    {
+      "initiative": "85",
+      "shuffle": true,
+      "rules": [
+        "* Special 1"
+      ]
+    },
+    {
+      "initiative": "79",
+      "shuffle": false,
+      "rules": [
+        "* Special 1"
+      ]
+    },
+    {
+      "initiative": "73",
+      "shuffle": false,
+      "rules": [
+        "* Special 1"
+      ]
+    },
+    {
+      "initiative": "36",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0"
+      ]
+    },
+    {
+      "initiative": "52",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% -1",
+        "** %range% 3",
+        "** %target% 2"
+      ]
+    }
+  ],
+  "Cave Bear": [
+    {
+      "initiative": "13",
+      "shuffle": false,
+      "rules": [
+        "* %move% +1",
+        "* %attack% -1"
+      ]
+    },
+    {
+      "initiative": "14",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% -1",
+        "** %immobilize%"
+      ]
+    },
+    {
+      "initiative": "34",
+      "shuffle": true,
+      "rules": [
+        "* %attack% +1",
+        "** %wound%"
+      ]
+    },
+    {
+      "initiative": "41",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0"
+      ]
+    },
+    {
+      "initiative": "60",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +1"
+      ]
+    },
+    {
+      "initiative": "80",
+      "shuffle": true,
+      "rules": [
+        "* %attack% -1",
+        "* %move% -2",
+        "* %attack% -1",
+        "** %wound%"
+      ]
+    },
+    {
+      "initiative": "61",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% -1",
+        "** %target% 2"
+      ]
+    },
+    {
+      "initiative": "03",
+      "shuffle": false,
+      "rules": [
+        "* %shield% 1",
+        "* %retaliate% 2",
+        "* %heal% 2",
+        "** Self"
+      ]
+    }
+  ],
+  "Cultist": [
+    {
+      "initiative": "10",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% -1",
+        "* On Death:",
+        "** %attack% +2 %aoe-circle-with-middle-black%"
+      ]
+    },
+    {
+      "initiative": "10",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% -1",
+        "* On Death:",
+        "** %attack% +2 %aoe-circle-with-middle-black%"
+      ]
+    },
+    {
+      "initiative": "27",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0"
+      ]
+    },
+    {
+      "initiative": "27",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0"
+      ]
+    },
+    {
+      "initiative": "39",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +0",
+        "* %heal% 1",
+        "** Self"
+      ]
+    },
+    {
+      "initiative": "63",
+      "shuffle": true,
+      "rules": [
+        "* Summon normal Living Bones",
+        "* Cultist suffers 2 damage."
+      ]
+    },
+    {
+      "initiative": "63",
+      "shuffle": true,
+      "rules": [
+        "* Summon normal Living Bones",
+        "* Cultist suffers 2 damage."
+      ]
+    },
+    {
+      "initiative": "31",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %heal% 3",
+        "** %range% 3"
+      ]
+    }
+  ],
+  "Deep Terror": [
+    {
+      "initiative": "65",
+      "shuffle": false,
+      "rules": [
+        "* %attack% +0",
+        "** %range% 3",
+        "** %target% 3",
+        "** %curse%"
+      ]
+    },
+    {
+      "initiative": "60",
+      "shuffle": true,
+      "rules": [
+        "* %attack% +0 %aoe-line-6-with-black%",
+        "** %pierce% 3"
+      ]
+    },
+    {
+      "initiative": "60",
+      "shuffle": true,
+      "rules": [
+        "* %attack% +0 %aoe-line-6-with-black%",
+        "** %pierce% 3"
+      ]
+    },
+    {
+      "initiative": "84",
+      "shuffle": false,
+      "rules": [
+        "* %attack% -1",
+        "** Target all adjacent enemies",
+        "* %attack% +0",
+        "** %range% 4",
+        "** %wound%"
+      ]
+    },
+    {
+      "initiative": "75",
+      "shuffle": false,
+      "rules": [
+        "* %attack% +0",
+        "** %poison%",
+        "* %attack% -1",
+        "** %range% 5",
+        "** %immobilize%"
+      ]
+    },
+    {
+      "initiative": "75",
+      "shuffle": false,
+      "rules": [
+        "* %attack% -2",
+        "** Target all adjacent enemies",
+        "** %disarm%",
+        "* %attack% +0",
+        "** %range% 3",
+        "** %target% 2"
+      ]
+    },
+    {
+      "initiative": "96",
+      "shuffle": false,
+      "rules": [
+        "* %attack% -2",
+        "** %range% 6",
+        "** Summon normal Deep Terror in a hex adjacent to the target"
+      ]
+    },
+    {
+      "initiative": "54",
+      "shuffle": false,
+      "rules": [
+        "* %wound% and %poison%",
+        "** Target all adjacent enemies",
+        "* %attack% +0",
+        "** %range% 4"
+      ]
+    }
+  ],
+  "Earth Demon": [
+    {
+      "initiative": "40",
+      "shuffle": true,
+      "rules": [
+        "* %heal% 3",
+        "** Self",
+        "* %earth%%use_element%: <span class='small'>%immobilize% Target all enemies within %range% 3</span>"
+      ]
+    },
+    {
+      "initiative": "42",
+      "shuffle": true,
+      "rules": [
+        "* %move% +1",
+        "* %attack% -1"
+      ]
+    },
+    {
+      "initiative": "62",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0",
+        "* %earth%"
+      ]
+    },
+    {
+      "initiative": "71",
+      "shuffle": false,
+      "rules": [
+        "* %attack% +0",
+        "** %range% 4",
+        "** %earth%%use_element%: %target% 2"
+      ]
+    },
+    {
+      "initiative": "83",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +1",
+        "* %earth%"
+      ]
+    },
+    {
+      "initiative": "93",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% -1",
+        "** Target all adjacent enemies",
+        "* %earth%%use_element%: %push% 1"
+      ]
+    },
+    {
+      "initiative": "79",
+      "shuffle": false,
+      "rules": [
+        "* %move% +1",
+        "* %attack% +0",
+        "** %air%%use_element%: -2 %attack%"
+      ]
+    },
+    {
+      "initiative": "87",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% -1 <div class='collapse'>%aoe-4-with-black%</div>",
+        "* %any%%use_element%: %earth%"
+      ]
+    }
+  ],
+  "Flame Demon": [
+    {
+      "initiative": "03",
+      "shuffle": false,
+      "rules": [
+        "* %move% +1",
+        "* %attack% -1",
+        "** %range% +0",
+        "* %fire%"
+      ]
+    },
+    {
+      "initiative": "24",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0",
+        "** %range% +0",
+        "* %fire%"
+      ]
+    },
+    {
+      "initiative": "46",
+      "shuffle": true,
+      "rules": [
+        "* %attack% +0",
+        "** %range% +0",
+        "** %fire%%use_element%:  %aoe-circle%"
+      ]
+    },
+    {
+      "initiative": "49",
+      "shuffle": false,
+      "rules": [
+        "* %attack% +0 %aoe-line-3-with-black%",
+        "** <table align='center'><tr><td>%fire%%use_element%:</td> <td> +1 %attack% <br> %wound% </td> </tr> </table>"
+      ]
+    },
+    {
+      "initiative": "67",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +1",
+        "** %range% -1",
+        "* %fire%"
+      ]
+    },
+    {
+      "initiative": "77",
+      "shuffle": false,
+      "rules": [
+        "* %attack% +0",
+        "** Target all adjacent enemies",
+        "** %ice%%use_element%:Flame Demon suffers 1 damage."
+      ]
+    },
+    {
+      "initiative": "30",
+      "shuffle": true,
+      "rules": [
+        "* <table align='center'><tr> <td>  %fire%%use_element%: </td> <td> <span class='small'>All adjacent enemies<br/>suffer 2 damage.</span> </td> </tr> </table>",
+        "* %move% +0",
+        "* %attack% -2",
+        "** %range% +0",
+        "** %wound%",
+        "** %target% 2"
+      ]
+    },
+    {
+      "initiative": "08",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* <span class='small'> Create a 4 damage trap in an adjacent empty hex closest to an enemy </span>",
+        "* %any%%use_element%: %fire%"
+      ]
+    }
+  ],
+  "Frost Demon": [
+    {
+      "initiative": "18",
+      "shuffle": false,
+      "rules": [
+        "* %immobilize%",
+        "** Target all enemies within %range% 2",
+        "* %ice%%use_element%: <span class='small'>%heal% 3<br/>Self</span>"
+      ]
+    },
+    {
+      "initiative": "38",
+      "shuffle": false,
+      "rules": [
+        "* %move% +1",
+        "* %attack% -1"
+      ]
+    },
+    {
+      "initiative": "58",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0"
+      ]
+    },
+    {
+      "initiative": "58",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +0",
+        "** %range% 2",
+        "** %ice%%use_element%: +2 %attack%, +1 %range%"
+      ]
+    },
+    {
+      "initiative": "78",
+      "shuffle": true,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +0 %aoe-triangle-2-side-with-black%",
+        "* %ice%"
+      ]
+    },
+    {
+      "initiative": "78",
+      "shuffle": true,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +0 %aoe-triangle-2-side-with-black%",
+        "* %ice%"
+      ]
+    },
+    {
+      "initiative": "58",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% -1",
+        "** %pierce% 3",
+        "* %any%%use_element%: %ice%"
+      ]
+    },
+    {
+      "initiative": "18",
+      "shuffle": false,
+      "rules": [
+        "* %shield% 2",
+        "* %move% +1",
+        "* %fire%%use_element%: <span class='small'>Frost Demon suffers 1 damage</span>"
+      ]
+    }
+  ],
+  "Giant Viper": [
+    {
+      "initiative": "32",
+      "shuffle": true,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0",
+        "** Add +2 Attack if the target is adjacent to any of the Giant Viper's allies."
+      ]
+    },
+    {
+      "initiative": "32",
+      "shuffle": true,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0",
+        "** Add +2 Attack if the target is adjacent to any of the Giant Viper's allies."
+      ]
+    },
+    {
+      "initiative": "11",
+      "shuffle": false,
+      "rules": [
+        "* %shield% 1",
+        "* %attack% -1"
+      ]
+    },
+    {
+      "initiative": "43",
+      "shuffle": false,
+      "rules": [
+        "* %move% +1",
+        "** %jump%",
+        "* %attack% -1",
+        "** Target all adjacent enemies."
+      ]
+    },
+    {
+      "initiative": "58",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +1"
+      ]
+    },
+    {
+      "initiative": "58",
+      "shuffle": false,
+      "rules": [
+        "* %move% +1",
+        "** %jump%",
+        "* %attack% -1",
+        "** All attacks targeting Giant Viper this round gain Disadvantage."
+      ]
+    },
+    {
+      "initiative": "43",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "** %jump%",
+        "* %attack% +0",
+        "** %target% 2"
+      ]
+    },
+    {
+      "initiative": "23",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% -1",
+        "** %immobilize%",
+        "* %attack% -1"
+      ]
+    }
+  ],
+  "Guard": [
+    {
+      "initiative": "15",
+      "shuffle": true,
+      "rules": [
+        "* %shield% 1",
+        "* %retaliate% 2"
+      ]
+    },
+    {
+      "initiative": "30",
+      "shuffle": false,
+      "rules": [
+        "* %move% +1",
+        "* %attack% -1"
+      ]
+    },
+    {
+      "initiative": "35",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +0",
+        "** %range% 2"
+      ]
+    },
+    {
+      "initiative": "50",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0"
+      ]
+    },
+    {
+      "initiative": "50",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0"
+      ]
+    },
+    {
+      "initiative": "70",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +1"
+      ]
+    },
+    {
+      "initiative": "55",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +0",
+        "* %strengthen%",
+        "** Self"
+      ]
+    },
+    {
+      "initiative": "15",
+      "shuffle": true,
+      "rules": [
+        "* %shield% 1",
+        "* %attack% +0",
+        "** %poison%"
+      ]
+    }
+  ],
+  "Harrower Infester": [
+    {
+      "initiative": "38",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +1",
+        "** %target% 2"
+      ]
+    },
+    {
+      "initiative": "07",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% -1",
+        "** %poison%",
+        "* %dark%"
+      ]
+    },
+    {
+      "initiative": "16",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% -1",
+        "* %heal% 5",
+        "** Self"
+      ]
+    },
+    {
+      "initiative": "16",
+      "shuffle": false,
+      "rules": [
+        "* %attack% +2",
+        "** %immobilize%",
+        "* %retaliate% 2"
+      ]
+    },
+    {
+      "initiative": "02",
+      "shuffle": true,
+      "rules": [
+        "* %shield% 2",
+        "* %retaliate% 2",
+        "** %range% 3"
+      ]
+    },
+    {
+      "initiative": "30",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +0 %aoe-line-4-with-black%",
+        "** %dark%%use_element%: Perform \"%heal% 2, Self\" </br>for each target damaged"
+      ]
+    },
+    {
+      "initiative": "38",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% -1",
+        "** %target% 2",
+        "** %dark%%use_element%: +2 %attack%, %disarm%"
+      ]
+    },
+    {
+      "initiative": "07",
+      "shuffle": true,
+      "rules": [
+        "* %attack% -1",
+        "** %range% 3",
+        "** %muddle%",
+        "* %heal% 4",
+        "** Self"
+      ]
+    }
+  ],
+  "Hound": [
+    {
+      "initiative": "06",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +0",
+        "** %immobilize%"
+      ]
+    },
+    {
+      "initiative": "07",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %muddle%",
+        "** Target all adjacent enemies"
+      ]
+    },
+    {
+      "initiative": "19",
+      "shuffle": true,
+      "rules": [
+        "* %move% +1",
+        "* %attack% +0",
+        "** Add +2 Attack if the target is adjacent to any of the Hound's allies"
+      ]
+    },
+    {
+      "initiative": "19",
+      "shuffle": true,
+      "rules": [
+        "* %move% +1",
+        "* %attack% +0",
+        "** Add +2 Attack if the target is adjacent to any of the Hound's allies"
+      ]
+    },
+    {
+      "initiative": "26",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0"
+      ]
+    },
+    {
+      "initiative": "26",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0"
+      ]
+    },
+    {
+      "initiative": "83",
+      "shuffle": false,
+      "rules": [
+        "* %move% -2",
+        "* %attack% +1"
+      ]
+    },
+    {
+      "initiative": "72",
+      "shuffle": false,
+      "rules": [
+        "* %attack% -1",
+        "** %pierce% 2",
+        "* %move% -2",
+        "* %attack% -1",
+        "** %pierce% 2"
+      ]
+    }
+  ],
+  "Imp": [
+    {
+      "initiative": "05",
+      "shuffle": false,
+      "rules": [
+        "* %shield% 5",
+        "* %heal% 1",
+        "** Self"
+      ]
+    },
+    {
+      "initiative": "37",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0",
+        "** %range% +0"
+      ]
+    },
+    {
+      "initiative": "37",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0",
+        "** %range% +0"
+      ]
+    },
+    {
+      "initiative": "42",
+      "shuffle": false,
+      "rules": [
+        "* %move% +1",
+        "* %heal% 2",
+        "** %range% 3"
+      ]
+    },
+    {
+      "initiative": "43",
+      "shuffle": true,
+      "rules": [
+        "* %move% +0",
+        "* %attack% -1",
+        "** %range% +0, %target% 2, %poison%"
+      ]
+    },
+    {
+      "initiative": "76",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +1",
+        "** %range% +0"
+      ]
+    },
+    {
+      "initiative": "43",
+      "shuffle": true,
+      "rules": [
+        "* %move% +0",
+        "* %attack% -1",
+        "** %range% +0, %target% 2, %curse%"
+      ]
+    },
+    {
+      "initiative": "24",
+      "shuffle": false,
+      "rules": [
+        "* %strengthen%",
+        "** Affect all allies within %range% 2",
+        "* %muddle%",
+        "** Target all enemies within %range% 2"
+      ]
+    }
+  ],
+  "Living Bones": [
+    {
+      "initiative": "64",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +1"
+      ]
+    },
+    {
+      "initiative": "20",
+      "shuffle": true,
+      "rules": [
+        "* %move% -2",
+        "* %attack% +0",
+        "* %heal% 2",
+        "** Self"
+      ]
+    },
+    {
+      "initiative": "25",
+      "shuffle": false,
+      "rules": [
+        "* %move% +1",
+        "* %attack% -1"
+      ]
+    },
+    {
+      "initiative": "45",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0"
+      ]
+    },
+    {
+      "initiative": "45",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0"
+      ]
+    },
+    {
+      "initiative": "81",
+      "shuffle": false,
+      "rules": [
+        "* %attack% +2"
+      ]
+    },
+    {
+      "initiative": "74",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0",
+        "** Target one enemy with all attacks"
+      ]
+    },
+    {
+      "initiative": "12",
+      "shuffle": true,
+      "rules": [
+        "* %shield% 1",
+        "* %heal% 2",
+        "** Self"
+      ]
+    }
+  ],
+  "Living Corpse": [
+    {
+      "initiative": "21",
+      "shuffle": false,
+      "rules": [
+        "* %move% +1",
+        "* %muddle% and %immobilize%",
+        "** Target one adjacent enemy"
+      ]
+    },
+    {
+      "initiative": "47",
+      "shuffle": false,
+      "rules": [
+        "* %move% +1",
+        "* %attack% -1"
+      ]
+    },
+    {
+      "initiative": "66",
+      "shuffle": true,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0"
+      ]
+    },
+    {
+      "initiative": "66",
+      "shuffle": true,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0"
+      ]
+    },
+    {
+      "initiative": "82",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +1"
+      ]
+    },
+    {
+      "initiative": "91",
+      "shuffle": false,
+      "rules": [
+        "* %move% +1",
+        "* Living Corpse suffers 1 damage."
+      ]
+    },
+    {
+      "initiative": "71",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +1",
+        "* %poison%",
+        "** Target all adjacent enemies"
+      ]
+    },
+    {
+      "initiative": "32",
+      "shuffle": false,
+      "rules": [
+        "* %attack% +2",
+        "** %push% 1",
+        "* Living Corpse suffers 1 damage."
+      ]
+    }
+  ],
+  "Living Spirit": [
+    {
+      "initiative": "22",
+      "shuffle": true,
+      "rules": [
+        "* %move% -1",
+        "* %attack% -1",
+        "** %range% +0",
+        "** %muddle%"
+      ]
+    },
+    {
+      "initiative": "33",
+      "shuffle": true,
+      "rules": [
+        "* %move% +0",
+        "* %attack% -1",
+        "** %range% +0",
+        "** Target all enemies within range"
+      ]
+    },
+    {
+      "initiative": "48",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0",
+        "** %range% +0"
+      ]
+    },
+    {
+      "initiative": "48",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0",
+        "** %range% +0"
+      ]
+    },
+    {
+      "initiative": "61",
+      "shuffle": false,
+      "rules": [
+        "* %attack% +0",
+        "** %range% -1",
+        "** %target% 2"
+      ]
+    },
+    {
+      "initiative": "75",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +1",
+        "** %range% -1",
+        "* %heal% 1",
+        "** Self"
+      ]
+    },
+    {
+      "initiative": "55",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %curse%",
+        "** %range% +0",
+        "** Target all enemies within range",
+        "* %ice%"
+      ]
+    },
+    {
+      "initiative": "67",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +1",
+        "** %range% +0",
+        "** %ice%%use_element%: %stun%"
+      ]
+    }
+  ],
+  "Lurker": [
+    {
+      "initiative": "11",
+      "shuffle": true,
+      "rules": [
+        "* %shield% 1",
+        "** %ice%%use_element%: %shield% 2 instead",
+        "* %wound%",
+        "** Target all adjacent enemies"
+      ]
+    },
+    {
+      "initiative": "28",
+      "shuffle": false,
+      "rules": [
+        "* %move% +1",
+        "* %attack% -1"
+      ]
+    },
+    {
+      "initiative": "38",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0"
+      ]
+    },
+    {
+      "initiative": "38",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0",
+        "** Target one enemy with all attacks"
+      ]
+    },
+    {
+      "initiative": "61",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +1"
+      ]
+    },
+    {
+      "initiative": "64",
+      "shuffle": false,
+      "rules": [
+        "* %attack% +1",
+        "** Target all adjacent enemies"
+      ]
+    },
+    {
+      "initiative": "41",
+      "shuffle": false,
+      "rules": [
+        "* %ice%%use_element%: %strengthen%",
+        "** Self",
+        "* %move% +0",
+        "* %attack% -1",
+        "** %wound%"
+      ]
+    },
+    {
+      "initiative": "23",
+      "shuffle": true,
+      "rules": [
+        "* %shield% 1",
+        "* %move% +0",
+        "* %attack% -1",
+        "* %ice%"
+      ]
+    }
+  ],
+  "Night Demon": [
+    {
+      "initiative": "04",
+      "shuffle": false,
+      "rules": [
+        "* %move% +1",
+        "* %attack% -1",
+        "* %dark%"
+      ]
+    },
+    {
+      "initiative": "07",
+      "shuffle": false,
+      "rules": [
+        "* %move% +1",
+        "* %attack% -1",
+        "* %dark%%use_element%: %invisible%",
+        "** Self"
+      ]
+    },
+    {
+      "initiative": "22",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0",
+        "* %dark%"
+      ]
+    },
+    {
+      "initiative": "26",
+      "shuffle": false,
+      "rules": [
+        "* %attack% -2",
+        "** %range% 3",
+        "** %target% 3",
+        "** %dark%%use_element%: %muddle%"
+      ]
+    },
+    {
+      "initiative": "46",
+      "shuffle": true,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +1",
+        "** %dark%%use_element%: +2 %attack%"
+      ]
+    },
+    {
+      "initiative": "41",
+      "shuffle": true,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +1",
+        "* %dark%"
+      ]
+    },
+    {
+      "initiative": "35",
+      "shuffle": false,
+      "rules": [
+        "* %attack% -1",
+        "* %attack% -1",
+        "** %pierce% 2",
+        "* %light%%use_element%: %curse%",
+        "** Self"
+      ]
+    },
+    {
+      "initiative": "15",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% -1",
+        "* <span class='small'>All adjacent enemies and allies suffer 1 damage.</span>",
+        "* <span class='small'>%any%%use_element%: %dark%</span>"
+      ]
+    }
+  ],
+  "Ooze": [
+    {
+      "initiative": "36",
+      "shuffle": false,
+      "rules": [
+        "* %move% +1",
+        "* %attack% -1",
+        "** %range% +0"
+      ]
+    },
+    {
+      "initiative": "57",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0",
+        "** %range% +0"
+      ]
+    },
+    {
+      "initiative": "59",
+      "shuffle": false,
+      "rules": [
+        "* %attack% +0",
+        "** %range% +0",
+        "** %target% 2",
+        "** %poison%"
+      ]
+    },
+    {
+      "initiative": "66",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +1",
+        "** %range% +1"
+      ]
+    },
+    {
+      "initiative": "94",
+      "shuffle": true,
+      "rules": [
+        "* Ooze suffers 2 damage ",
+        "** <span class='small'>Summons normal Ooze with a hit point value equal to the summoning Ooze's current hit point value (limited by a normal Ooze's specified maximum hit point value)</span>"
+      ]
+    },
+    {
+      "initiative": "94",
+      "shuffle": true,
+      "rules": [
+        "* Ooze suffers 2 damage ",
+        "** <span class='small'>Summons normal Ooze with a hit point value equal to the summoning Ooze's current hit point value (limited by a normal Ooze's specified maximum hit point value)</span>"
+      ]
+    },
+    {
+      "initiative": "85",
+      "shuffle": false,
+      "rules": [
+        "* %push% 1 and",
+        "* %poison%",
+        "** Target all adjacent enemies",
+        "* %attack% +1",
+        "** %range% -1"
+      ]
+    },
+    {
+      "initiative": "66",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %loot% 1",
+        "* %heal% 2",
+        "** Self"
+      ]
+    }
+  ],
+  "Rending Drake": [
+    {
+      "initiative": "12",
+      "shuffle": false,
+      "rules": [
+        "* %move% +1",
+        "* %attack% -1"
+      ]
+    },
+    {
+      "initiative": "13",
+      "shuffle": true,
+      "rules": [
+        "* %attack% -1",
+        "* %move% -1",
+        "* %attack% -1"
+      ]
+    },
+    {
+      "initiative": "25",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0"
+      ]
+    },
+    {
+      "initiative": "39",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +1"
+      ]
+    },
+    {
+      "initiative": "54",
+      "shuffle": false,
+      "rules": [
+        "* %move% -2",
+        "* %attack% -1",
+        "** %range% 3",
+        "** %target% 2",
+        "** %poison%"
+      ]
+    },
+    {
+      "initiative": "59",
+      "shuffle": false,
+      "rules": [
+        "* %move% -2",
+        "* %attack% +1",
+        "** %target% 2"
+      ]
+    },
+    {
+      "initiative": "06",
+      "shuffle": false,
+      "rules": [
+        "* %shield% 2",
+        "* %heal% 2",
+        "** Self",
+        "* %strengthen%",
+        "** Self"
+      ]
+    },
+    {
+      "initiative": "72",
+      "shuffle": true,
+      "rules": [
+        "* %attack% -1",
+        "* %attack% -1",
+        "* %attack% -2"
+      ]
+    }
+  ],
+  "Savvas Icestorm": [
+    {
+      "initiative": "70",
+      "shuffle": false,
+      "rules": [
+        "* %push% 2",
+        "** Target all adjacent enemies",
+        "** %air%%use_element%: %push% 4 instead",
+        "* %attack% +1",
+        "** %range% +1"
+      ]
+    },
+    {
+      "initiative": "98",
+      "shuffle": false,
+      "rules": [
+        "* Summon normal Wind Demon",
+        "* %air%"
+      ]
+    },
+    {
+      "initiative": "98",
+      "shuffle": false,
+      "rules": [
+        "* Summon normal Frost Demon",
+        "* %ice%"
+      ]
+    },
+    {
+      "initiative": "19",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% -1",
+        "** %range% -1",
+        "* %shield% 1",
+        "** Affect self and all allies within %range% 2",
+        "* %ice%"
+      ]
+    },
+    {
+      "initiative": "14",
+      "shuffle": false,
+      "rules": [
+        "* %attack% +0",
+        "** %range% +0",
+        "** %ice%%use_element%: +2 %attack%, %immobilize%",
+        "* %retaliate% 2",
+        "* %air%"
+      ]
+    },
+    {
+      "initiative": "14",
+      "shuffle": false,
+      "rules": [
+        "* %shield% 4",
+        "* %heal% 2",
+        "** %range% 3",
+        "** %ice%%use_element%: +3 %heal%",
+        "* %air%%use_element%: %attack% +0"
+      ]
+    },
+    {
+      "initiative": "47",
+      "shuffle": true,
+      "rules": [
+        "* %disarm%",
+        "** Target all adjacent enemies",
+        "* %move% +0",
+        "* %attack% -1",
+        "** %range% +0",
+        "* %air%"
+      ]
+    },
+    {
+      "initiative": "35",
+      "shuffle": true,
+      "rules": [
+        "* %move% -1",
+        "* %attack% -1 %aoe-triangle-3-side-with-corner-black% ",
+        "* %ice%"
+      ]
+    }
+  ],
+  "Savvas Lavaflow": [
+    {
+      "initiative": "97",
+      "shuffle": false,
+      "rules": [
+        "* Summon normal Flame Demon",
+        "* %fire%"
+      ]
+    },
+    {
+      "initiative": "97",
+      "shuffle": false,
+      "rules": [
+        "* Summon normal Earth Demon",
+        "* %earth%"
+      ]
+    },
+    {
+      "initiative": "22",
+      "shuffle": false,
+      "rules": [
+        "* %move% +1",
+        "* %attack% -1",
+        "** Target all adjacent enemies",
+        "* %fire%%use_element%: %retaliate% 3"
+      ]
+    },
+    {
+      "initiative": "68",
+      "shuffle": true,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +1",
+        "** %range% 3",
+        "** All allies and enemies adjacent to the target suffer 2 damage.",
+        "* %earth%"
+      ]
+    },
+    {
+      "initiative": "41",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% -1 %aoe-line-4-with-black% ",
+        "** %earth%%use_element%: +2 %attack%, %immobilize%"
+      ]
+    },
+    {
+      "initiative": "51",
+      "shuffle": false,
+      "rules": [
+        "* All enemies suffer 2 damage.",
+        "* %fire%%use_element%: %wound% all enemies",
+        "* %earth%%use_element%: %disarm% all enemies"
+      ]
+    },
+    {
+      "initiative": "31",
+      "shuffle": false,
+      "rules": [
+        "* %heal% 4",
+        "** %range% 3",
+        "** %earth%%use_element%: %target% 3"
+      ]
+    },
+    {
+      "initiative": "68",
+      "shuffle": true,
+      "rules": [
+        "* %move% -1",
+        "* %attack% -1",
+        "** %range% 3",
+        "** %target% 2",
+        "* %fire%"
+      ]
+    }
+  ],
+  "Scout": [
+    {
+      "initiative": "29",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% -1",
+        "** %range% 3"
+      ]
+    },
+    {
+      "initiative": "40",
+      "shuffle": false,
+      "rules": [
+        "* %move% +1",
+        "* %attack% -1"
+      ]
+    },
+    {
+      "initiative": "53",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0"
+      ]
+    },
+    {
+      "initiative": "54",
+      "shuffle": false,
+      "rules": [
+        "* %move% -2",
+        "* %attack% +0",
+        "** %range% 3",
+        "** %poison%"
+      ]
+    },
+    {
+      "initiative": "69",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +1"
+      ]
+    },
+    {
+      "initiative": "92",
+      "shuffle": true,
+      "rules": [
+        "* %attack% +2",
+        "** %poison% "
+      ]
+    },
+    {
+      "initiative": "35",
+      "shuffle": true,
+      "rules": [
+        "* %move% +1",
+        "** %jump%",
+        "* %loot% 1"
+      ]
+    },
+    {
+      "initiative": "79",
+      "shuffle": false,
+      "rules": [
+        "* %attack% -1",
+        "** %range% 4",
+        "** %target% 2"
+      ]
+    }
+  ],
+  "Shaman": [
+    {
+      "initiative": "08",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% -1",
+        "** %range% +0",
+        "** %disarm%"
+      ]
+    },
+    {
+      "initiative": "08",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +0",
+        "** %range% +0",
+        "** %immobilize%"
+      ]
+    },
+    {
+      "initiative": "23",
+      "shuffle": true,
+      "rules": [
+        "* %move% +0",
+        "* %heal% 3",
+        "** %range% 3"
+      ]
+    },
+    {
+      "initiative": "23",
+      "shuffle": true,
+      "rules": [
+        "* %move% +0",
+        "* %heal% 3",
+        "** %range% 3"
+      ]
+    },
+    {
+      "initiative": "62",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0",
+        "** %range% +0"
+      ]
+    },
+    {
+      "initiative": "74",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +1",
+        "** %range% +0"
+      ]
+    },
+    {
+      "initiative": "89",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %heal% 1",
+        "** Affect all adjacent allies",
+        "* %bless%",
+        "** Self"
+      ]
+    },
+    {
+      "initiative": "09",
+      "shuffle": false,
+      "rules": [
+        "* %move% +1",
+        "* %attack% -1",
+        "** %range% +0, %curse%, %target% 2"
+      ]
+    }
+  ],
+  "Spitting Drake": [
+    {
+      "initiative": "32",
+      "shuffle": false,
+      "rules": [
+        "* %move% +1",
+        "* %attack% -1",
+        "** %range% +0"
+      ]
+    },
+    {
+      "initiative": "52",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0",
+        "** %range% +0"
+      ]
+    },
+    {
+      "initiative": "57",
+      "shuffle": true,
+      "rules": [
+        "* %move% +0",
+        "* %attack% -1 %aoe-triangle-2-side%",
+        "** %range% +0"
+      ]
+    },
+    {
+      "initiative": "27",
+      "shuffle": false,
+      "rules": [
+        "* %attack% +0",
+        "** %range% +0,  %target% 2, %poison%"
+      ]
+    },
+    {
+      "initiative": "87",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +1",
+        "** %range% +0"
+      ]
+    },
+    {
+      "initiative": "89",
+      "shuffle": false,
+      "rules": [
+        "* %attack% -2",
+        "** %range% +0",
+        "** %stun%"
+      ]
+    },
+    {
+      "initiative": "06",
+      "shuffle": false,
+      "rules": [
+        "* %shield% 2",
+        "* %heal% 2",
+        "** Self",
+        "* %strengthen%",
+        "** Self"
+      ]
+    },
+    {
+      "initiative": "89",
+      "shuffle": true,
+      "rules": [
+        "* %move% -1",
+        "* %attack% -2 %aoe-circle%",
+        "** %range% +0",
+        "** %poison%"
+      ]
+    }
+  ],
+  "Stone Golem": [
+    {
+      "initiative": "11",
+      "shuffle": false,
+      "rules": [
+        "* %retaliate% 3",
+        "** %range% 3"
+      ]
+    },
+    {
+      "initiative": "28",
+      "shuffle": false,
+      "rules": [
+        "* %move% +1",
+        "* %attack% +0",
+        "* Stone Golem suffers 1 damage."
+      ]
+    },
+    {
+      "initiative": "51",
+      "shuffle": true,
+      "rules": [
+        "* %move% +1",
+        "* %attack% -1"
+      ]
+    },
+    {
+      "initiative": "65",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0"
+      ]
+    },
+    {
+      "initiative": "72",
+      "shuffle": false,
+      "rules": [
+        "* %attack% +1",
+        "** %range% 3",
+        "* Stone Golem suffers 2 damage"
+      ]
+    },
+    {
+      "initiative": "90",
+      "shuffle": true,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +1"
+      ]
+    },
+    {
+      "initiative": "28",
+      "shuffle": false,
+      "rules": [
+        "* %move% +1",
+        "* %attack% -2",
+        "** %range% 3",
+        "** %pull% 2",
+        "** %immobilize%"
+      ]
+    },
+    {
+      "initiative": "83",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% -1",
+        "** Target all adjacent enemies"
+      ]
+    }
+  ],
+  "Sun Demon": [
+    {
+      "initiative": "17",
+      "shuffle": true,
+      "rules": [
+        "* %heal% 3",
+        "** %range% 3",
+        "** %light%%use_element%: Target all allies within range instead"
+      ]
+    },
+    {
+      "initiative": "36",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0",
+        "** Target all adjacent enemies",
+        "* %light%"
+      ]
+    },
+    {
+      "initiative": "36",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0",
+        "** Target all adjacent enemies",
+        "* %light%"
+      ]
+    },
+    {
+      "initiative": "68",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +1",
+        "* %light%"
+      ]
+    },
+    {
+      "initiative": "73",
+      "shuffle": true,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +1",
+        "* %light%%use_element%: %heal% 3",
+        "** Self"
+      ]
+    },
+    {
+      "initiative": "95",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +0",
+        "** %range% 4",
+        "** %light%%use_element%: Target all enemies within range"
+      ]
+    },
+    {
+      "initiative": "88",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% -1",
+        "** Target all adjacent enemies",
+        "* %dark%%use_element%: %muddle%",
+        "** Self"
+      ]
+    },
+    {
+      "initiative": "50",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0",
+        "** %range% 3",
+        "* %any%%use_element%: %light%"
+      ]
+    }
+  ],
+  "Wind Demon": [
+    {
+      "initiative": "09",
+      "shuffle": false,
+      "rules": [
+        "* %attack% -1",
+        "** %range% +0",
+        "* %heal% 1",
+        "** Self",
+        "* %air%%use_element%: %invisible%<br/><span class='small'>Self</span>"
+      ]
+    },
+    {
+      "initiative": "21",
+      "shuffle": true,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0",
+        "** %range% +0, %pull% 1",
+        "* %air%"
+      ]
+    },
+    {
+      "initiative": "21",
+      "shuffle": true,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0",
+        "** %range% +0, %pull% 1",
+        "* %air%"
+      ]
+    },
+    {
+      "initiative": "29",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% -1",
+        "** %range% +0, %target% 2",
+        "** %air%%use_element%: %push% 2"
+      ]
+    },
+    {
+      "initiative": "37",
+      "shuffle": false,
+      "rules": [
+        "* %move% +0",
+        "* %attack% +0 <div style='display: inline-block; width: 0; margin-top: -1.5em; vertical-align: bottom'>%aoe-4-with-black%</div>",
+        "** %air%%use_element%: +1 Attack <div style='display: inline-block; margin-right: -3em'>%aoe-circle-with-side-black%</div>"
+      ]
+    },
+    {
+      "initiative": "43",
+      "shuffle": false,
+      "rules": [
+        "* %move% -1",
+        "* %attack% +1",
+        "** %range% +0",
+        "** %air%%use_element%: %target% 2"
+      ]
+    },
+    {
+      "initiative": "43",
+      "shuffle": false,
+      "rules": [
+        "* %push% 1",
+        "** Target all adjacent enemies",
+        "* %attack% +0",
+        "** %range% +0",
+        "** %earth%%use_element%: -2 %range%"
+      ]
+    },
+    {
+      "initiative": "02",
+      "shuffle": false,
+      "rules": [
+        "* %shield% 1",
+        "* %move% -1",
+        "* %attack% -1",
+        "** %range% +0",
+        "* %any%%use_element%: %air%"
+      ]
+    }
+  ]
+}
